@@ -1,0 +1,865 @@
+osm_id,latitude,longitude,name,shop_type,amenity,opening_hours
+3291255926,-0.1253104,34.7535577,Kiosk,convenience,,
+3291258371,-0.125057,34.7536201,Kiosk,convenience,,
+3291258372,-0.1239009,34.7533096,Kiosk,convenience,,
+3291258373,-0.1227416,34.7529361,Kiosk,convenience,,
+3292348351,-0.104469,34.753473,Oriental Chinese Restaurant,deli,,
+3292350021,-0.1033614,34.7557818,,butcher,,
+3330614604,-0.1043485,34.7525964,Baus Optical,optician,,
+3834757804,-0.1048388,34.7529084,Shivling,supermarket,,
+4620804290,-0.1181739,34.7463944,roots wabara fine arts,gift,,Mo-Su 07:00-18:30
+4620811493,-0.1183397,34.7464164,street shop,convenience,,
+5297054322,-0.1002629,34.754289,Dahbshil,copyshop,,
+5731866921,-0.1016455,34.7508908,Printex Brand Limited,copyshop,,
+5829801685,-0.0968728,34.7521061,Amex,car_parts,,
+6130562035,-0.0975982,34.7505583,KingswayTyres-Kisumu,tyres,,
+6130562037,-0.0968456,34.7506653,CMC Motors,car,,
+6633205204,-0.0999643,34.7520069,Zaira Tours And Travel,travel_agency,,
+6851440464,-0.1024953,34.7523456,QuickMart,supermarket,,
+6966453737,-0.0816245,34.76504,Obunga Market,,marketplace,
+6969176795,-0.1167143,34.7871522,Nyamasaria,,marketplace,
+7181814601,-0.1067626,34.7704819,Naivas Food Market,supermarket,,08:30-20:30
+7222892585,-0.1057793,34.7531717,Safaricom,mobile_phone,,
+7227559253,-0.1172055,34.7591898,QuickMart,supermarket,,
+7229869113,-0.116943,34.7875621,Choppies,supermarket,,
+7229869128,-0.0835541,34.7754727,Quickmart- Kondele,supermarket,,
+7229869129,-0.0819533,34.7751694,Shivling,supermarket,,
+7230512297,-0.0016911,34.7397444,Gambogi,,marketplace,
+8190762065,-0.089995,34.773055,JOOTRH Mortuary,funeral_directors,,
+8814265702,-0.1191967,34.76467,Mama Papa's Shop,general,,
+8814298899,-0.1171883,34.76083,SB Salon,hairdresser,,
+8814390051,-0.0975267,34.7786233,Honda Nafuu General Store,general,,
+8814394881,-0.0977217,34.7781317,Mama Sally Shop,kiosk,,
+8814396056,-0.09138,34.7806533,Hardware Shop,hardware,,
+8816796434,-0.0867191,34.7808155,Auma Plaza,department_store,,
+8816862517,-0.1442633,34.73629,Dunga Market,,marketplace,
+8816875717,-0.120895,34.7550017,Kilo,,marketplace,
+8816877717,-0.1191189,34.7528467,Simba Market,,marketplace,
+8816877719,-0.108175,34.7837583,Kasawino,convenience,,
+8816890718,-0.114675,34.76901,Corona market - kowino,,marketplace,
+8816908517,-0.1084567,34.7830067,Kasawino Market,,marketplace,
+8816914817,-0.1028217,34.7770083,Gesoko,,marketplace,
+8816921346,-0.08866,34.7770067,Usodho J.G Shop,kiosk,,
+8816941117,-0.09202,34.77597,Corona Market 2,,marketplace,
+8816945517,-0.0881583,34.777845,Corona Market,,marketplace,
+8816948717,-0.0881117,34.7806583,Kona Mbuta Market,,marketplace,
+8816952917,-0.0875748,34.7829903,Kaego,,marketplace,
+8816962317,-0.084175,34.7745917,Kondele Market,,marketplace,
+8816972117,-0.0816297,34.7845018,Kaego Market,,marketplace,
+8816972118,-0.0743766,34.781689,Lolwe Junction Market,,marketplace,
+8816975418,-0.0805903,34.7716722,Nyawita market,,marketplace,
+8816984317,-0.0815979,34.7714588,Ayanga Market Nyawita,,marketplace,
+8816988617,-0.0810567,34.7604283,Obunga Fish Market,,marketplace,
+8816995517,-0.0803143,34.7465815,Kombedu Market,,marketplace,
+8816996417,-0.0797453,34.7464408,Kombedu,,marketplace,
+8817013517,-0.0793272,34.7413743,Bandani Market,,marketplace,
+8817049400,-0.0812419,34.7814793,Saya Hardware,hardware,,
+8817126017,-0.0762867,34.7298283,Riat Market,,marketplace,
+8817126018,-0.0765933,34.728975,Riat road side market,farm,marketplace,
+8817177117,-0.0769175,34.729264,Riat railway market,,marketplace,
+8817263717,-0.0755503,34.7089485,Bandani market,,marketplace,
+8817300117,-0.08073,34.7078633,Kotetni market,,marketplace,
+8817449264,-0.0829874,34.7768021,Renee Collection,boutique,,
+8817517530,-0.0833061,34.7753706,Handshake Wines and Spirits,alcohol,,
+8817685608,-0.0835894,34.7751816,,kiosk,,
+8817709342,-0.0835182,34.7747302,Nildeep Hardware Limited,hardware,,
+8817734979,-0.0841454,34.7746317,Aswanson Super Duka,wholesale,,
+8820769660,-0.0850551,34.7748571,Josato Butchery,butcher,,
+8820803086,-0.0816223,34.7712751,Smiles Hair salon,hairdresser,,
+8820816012,-0.0813617,34.7713264,Mama Velma Salon,hairdresser,,
+8820816082,-0.0815694,34.7712899,Nyawita Dairy Shop,dairy,,
+8820816309,-0.0814791,34.7712572,Denis Shop,kiosk,,
+8820820649,-0.0809901,34.7713845,Signet Shop,kiosk,,
+8820820650,-0.0807646,34.7714825,Juwey Fashions,boutique,,
+8820825354,-0.0811011,34.7714351,Mama Juliet Shop,kiosk,,
+8820841549,-0.0807136,34.7714482,Shalom Tailoring Shop,tailor,,
+8820855657,-0.0805837,34.7717521,Kananga Everfresh Butchery,butcher,,
+8820860534,-0.07818,34.7700283,Mama Victor Cosmetics,cosmetics,,
+8820860606,-0.078825,34.7684933,Mama Grace Salon,hairdresser,,
+8820861136,-0.0802638,34.7716231,Paseph Movie Shop,video,,
+8820863014,-0.0803633,34.7663283,Obunga Kinyozi,hairdresser,,
+8820869587,-0.0786817,34.769495,Covenant Salon,hairdresser,,
+8820886815,-0.0800864,34.7667771,NEEMA Dairy Shop,dairy,,
+8820899854,-0.0799517,34.7670517,Butchery,butcher,,
+8820906519,-0.0799407,34.7671994,Segasega Timberyard,trade,,
+8820906538,-0.0803643,34.76621,Imani Meat Butchery,butcher,,
+8823995282,-0.0808214,34.7664914,Juba General shop,kiosk,,
+8824025979,-0.0815633,34.7652117,Three Star Butchery,butcher,,
+8824028730,-0.0812517,34.7654833,Edu Shop,kiosk,,
+8824029560,-0.0809141,34.7663913,Holos Wines and Spitits,alcohol,,
+8824045135,-0.0816067,34.76536,Vertican Kinyozi,hardware,,
+8824050876,-0.081095,34.7645133,Riverside Shop,kiosk,,
+8824052507,-0.0812533,34.7648867,Baba Nelfa Shop,kiosk,,
+8824052508,-0.0809,34.7643833,Mama Manu Shop,kiosk,,
+8824061915,-0.0815383,34.7650583,Joy Butchery,butcher,,
+8824065764,-0.0808517,34.7641183,Qaran Technologies,electronics,,
+8824066818,-0.0812117,34.7648917,Kuku Shop,butcher,,
+8824073827,-0.080635,34.764155,Grocery Stall,greengrocer,,
+8824095656,-0.079965,34.76328,Kajaloka Shop,kiosk,,
+8824115284,-0.0799517,34.764215,Mercy Cereals,greengrocer,,
+8824117358,-0.0800917,34.7635417,Jaseme Shop,kiosk,,
+8987955679,-0.0975554,34.7785944,Manyatta Market,,marketplace,
+9126367969,-0.1043701,34.7519231,,greengrocer,,
+9126374353,-0.1042736,34.7518879,Drink and smile,water,,
+9443804417,-0.1110779,34.7693277,Queen Soap,chemist,,Mo-Su 09:00-18:00
+9443804418,-0.0929863,34.7804744,Kona Mbaya Shop,tailor,,"Mo-Fr,Su 08:00-18:00"
+9443804425,-0.0659193,34.7047465,Mama Brax Shop,chemist,,Mo-Fr 09:00-18:00
+9443804428,-0.0828926,34.7719115,Markmos,tailor,,Mo-Sa 08:00-18:00
+9443804432,-0.0996851,34.8460804,Jared Auma Tailoring,tailor,,Mo-Su 08:00-18:00
+9443804433,-0.0607118,34.7806643,Emily Tailoring Shop,tailor,,Mo-Sa 09:00-17:00
+9443804444,-0.1009514,34.7690236,Sharon,chemist,,"Mo-Fr,Su 08:00-18:00"
+9443804446,-0.0751447,34.7813578,Cynthia Atieno,chemist,,Mo-Fr 08:00-18:00
+9443804454,-0.1120921,34.7666937,Sandra's Tailoring Shop,tailor,,Mo-Su 08:00-17:00
+9443804455,-0.0808292,34.7731828,Moni Fashions,tailor,,Mo-Sa
+9443804459,-0.0931354,34.7806727,Caroline Tailor Shop,tailor,,"Mo-Fr,Su 07:00-18:00"
+9443804462,-0.1227859,34.753216,Nelly's House,chemist,,"Mo-Fr,Su 09:00-18:00"
+9443804464,-0.124795,34.753025,Mama Serena,tailor,,"Mo-Fr,Su"
+9443804468,-0.0817252,34.7713598,Grace Tailoring,tailor,,Mo-Sa 08:00-17:00
+9443804470,-0.1183712,34.7602091,Vincent's Shop,chemist,,Mo-Su 09:00-16:00
+9443804472,-0.1114307,34.7677688,Jay Kaunda Tailoring,tailor,,Mo-Sa 07:00-18:00
+9443804474,-0.0773239,34.7779143,Capeneser Tailoring Shop,tailor,,Mo-Fr
+9443804487,-0.082992,34.8002358,Andrew Ater,chemist,,Mo-Su 08:00-18:00
+9443804490,-0.1541523,34.8342176,Shironkoh Tailoring,tailor,,Mo-Sa 08:00-18:00
+9443804492,-0.0713507,34.781385,Dennis,chemist,,Mo-Su
+9443804494,-0.167128,34.7928086,Ka Elijah Tailoring Shop,tailor,,Mo-Fr 08:00-21:00
+9443804498,-0.0954574,34.7527257,Suprima Industries,chemist,,Mo-Fr 08:00-18:00
+9443804501,-0.0713541,34.7813615,Vincent,tailor,,Mo-Su
+9443804517,-0.0713655,34.781385,Mironga,chemist,,Mo-Su
+9443804519,-0.0704857,34.8113723,Yvonne,chemist,,Mo-Su 07:00-20:00
+9443804521,-0.0545839,34.7920343,Carruthers East Africa,chemist,,Mo-Fr 08:00-17:00
+9443804527,-0.1559466,34.8631094,Mama Faith Tailoring,tailor,,"Mo-Fr,Su 10:00-18:00"
+9443804534,-0.0991191,34.7810955,Angela Designs,tailor,,"Mo-Fr,Su 09:00-19:00"
+9443804537,-0.0976701,34.777944,Lord General Shop,chemist,,Mo-Sa 08:00-19:00
+9443804539,-0.1118395,34.7670215,Abdul,tailor,,Mo-Su 07:00-18:00
+9443804544,-0.0515109,34.7784949,Linda's Tailoring,tailor,,Mo-Sa 07:00-18:00
+9443804549,-0.1186567,34.7599544,Elias,chemist,,Mo-Sa 10:00-18:00
+9443804558,-0.0991249,34.8466506,KA Nyaugenya Tailoring,tailor,,Mo-Su 09:00-18:00
+9443804560,-0.1440371,34.7369734,Edna Tailoring Point,tailor,,Mo-Sa 10:00-17:00
+9446338296,-0.1002197,34.8705835,Nyamalo Tailoring Shop,tailor,,Mo-Sa 08:00-18:00
+9446338297,-0.0786553,34.6899885,Ma' Junior Tailoring,tailor,,Mo-Sa 08:00-18:00
+9446338301,-0.1123071,34.7663691,Policap Printer,copyshop,,"Mo-Th,Su"
+9446338303,-0.07744,34.730025,Ka Nyauyoma Tailoring,tailor,,Mo-Sa 08:00-19:00
+9446338304,-0.083015,34.8002048,Naomi Achieng,chemist,,Mo-Su 08:00-18:00
+9446338307,-0.1118617,34.7681541,Oyua Tailoring Shop,tailor,,Mo-Sa 08:00-19:00
+9446338308,-0.0977,34.7780124,Rose Tailoring Shop,tailor,,"Mo-Fr,Su 08:00-18:00"
+9446338310,-0.0762646,34.725383,Ras Metal Work,tailor,,Mo-Sa 07:00-18:00
+9446338311,-0.0997215,34.7649186,Mama Lucy Tailoring,tailor,,"Mo-Fr,Su"
+9446395018,-0.0713507,34.781385,Even Fashion And Design Shop,tailor,,Mo-Su 08:00-19:00
+9446395020,-0.1357588,34.7415501,Kitenge Place,tailor,,Mo-Sa
+9446395025,-0.0772688,34.7779309,Carter's Shaop,chemist,,Mo-Fr
+9446395026,-0.0828786,34.770735,Otom Investments,chemist,,"Mo,We,Fr"
+9446395031,-0.0755421,34.7086556,Deborah Ouma Odindo Shop,chemist,,Mo-Su 08:00-17:00
+9446395037,-0.0980526,34.7783358,Glorious Vision,tailor,,Mo-Sa 07:00-18:00
+9446395043,-0.0743337,34.6839395,Mix Tailoring Shop,tailor,,Mo-Sa 09:00-18:00
+9446395051,-0.1442959,34.7366659,Arosy Workshop,tailor,,Mo-Sa 10:00-18:00
+9446395052,-0.0832634,34.7735843,Osuma Dressmaking,tailor,,Mo-Sa 08:00-17:00
+9446395055,-0.1567358,34.8623536,Bernard Fabrication,tailor,,Mo-Sa 08:00-17:00
+9446395063,-0.0595106,34.7853438,Waltithez,tailor,,Mo-Sa 08:00-18:00
+9446395068,-0.0959942,34.7574925,Opuk Jakinda,tailor,,"Mo-Fr,Su 07:00-18:00"
+9446395069,-0.0976126,34.7794847,Mama Jim Tailoring Shop,tailor,,Mo-Fr 09:00-18:00
+9446395073,-0.0463138,34.7654454,Mama Vini Tailoring,tailor,,Mo-Sa 08:00-18:00
+9446395079,-0.0768821,34.7929743,Unique Advanced Tec,tailor,,Mo-Sa 07:00-18:00
+9446395085,-0.0925102,34.7800267,Mama Blessing Shop,tailor,,Mo-Sa 09:00-19:00
+9446395094,-0.0907746,34.78157,Olenyo Shop,chemist,,sunrise-sunset
+9446395095,-0.0751677,34.7080056,KCB Mpesa Shop,chemist,,Mo-Sa 08:00-17:00
+9446395097,-0.0976161,34.7535662,Riat Tailoring Shop,tailor,,Mo-Su 08:00-18:00
+9446395100,-0.0960467,34.7548593,Dan Tailor Shop,tailor,,Mo-Su 07:00-19:00
+9446395107,-0.1357592,34.7415489,N/a,tailor,,Mo-Fr 10:00-18:00
+9446395108,-0.0980161,34.7734851,Narudi Fabrics,tailor,,Mo-Sa 08:00-19:00
+9446395109,-0.0742949,34.7888233,No Name Yet,tailor,,Mo-Sa 08:00-18:00
+9446395110,-0.1161584,34.7610553,Pacho Tailor,copyshop,,"Mo-Fr,Su"
+9446395111,-0.0575647,34.7778481,Steven Otis,tailor,,"Mo-Fr,Su 08:00-18:00"
+9446395117,-0.0990553,34.7697439,Babby,chemist,,Mo-We 08:00-12:00
+9446395120,-0.0881406,34.7792077,Zeph Tailoring,tailor,,Mo-Sa 08:00-18:00
+9446395122,-0.058781,34.7759922,Atinda Fashion And Design,tailor,,Mo-Su 06:00-18:00
+9446395128,-0.0969937,34.7798907,Dennis,tailor,,Mo-Su 08:00-19:00
+9446395129,-0.097343,34.7790099,Fundi Manyatta Shop,tailor,,Mo-Sa
+9446395130,-0.0827604,34.7708349,No Name Yet,chemist,,"Mo,Tu,Th,Fr"
+9446395134,-0.0252688,34.7474616,Elizabeth Tailoring Shop,tailor,,Mo-Sa 08:00-18:00
+9446395135,-0.1285161,34.7471476,Her House,chemist,,Mo-Fr
+9446395137,-0.1105393,34.768776,Esther's Shop,tailor,,Mo-Sa 09:00-21:00
+9446395139,-0.1005645,34.8699735,Ka Min Michael Tailoring,tailor,,Mo-Fr 08:00-19:00
+9462604704,-0.0895694,34.7760295,Eric Welding Shop,chemist,,Mo-Su 08:00-19:00
+9462604705,-0.1233335,34.7515786,Caroline Tailoring Shop,tailor,,Mo-Sa
+9462604706,-0.090891,34.7762016,Eunice Tailor Shop,tailor,,Mo-Su 08:00-19:00
+9462604709,-0.1343017,34.742324,Mama Kyail Tailoring Shop,tailor,,"Mo-Fr,Su"
+9462604713,-0.0794153,34.7678027,Antony Tailor Shop,tailor,,Mo-Sa 08:00-19:00
+9462619419,-0.1131095,34.7659307,Suzy,tailor,,"Mo-Fr,Su 08:00-19:00"
+9462619420,-0.1007601,34.7688561,Cynthia's Shop,chemist,,Mo-Su 09:00-18:00
+9462619421,-0.1120069,34.7668604,Solomon Tailoring,tailor,,Mo-Sa 07:00-21:00
+9462619422,-0.0791672,34.6938294,Achieng Tailoring,tailor,,Mo-Sa 08:00-18:00
+9462619424,-0.0999834,34.7548276,Mayow Curtain Shop,tailor,,Mo-Su 08:00-18:00
+9462619430,-0.0975787,34.7758929,Carol Designs,tailor,,"Mo-Th,Sa 08:00-20:00"
+9462619432,-0.0712652,34.7812586,Princess Marcos,chemist,,"Mo,Tu,Fr sunset-sunrise open"
+9462619434,-0.1500127,34.8251226,Ka Nyakisumo Tailoring,tailor,,Mo-Sa 09:00-19:00
+9462619437,-0.0514519,34.7919139,Kanyawina Tailoring,tailor,,Mo-Fr 09:00-18:00
+9462619443,-0.1009976,34.7507304,Gulflab Chemical Co.Ltd,chemist,,Mo-Sa 08:00-18:00
+9462619445,-0.0711639,34.8104714,Yvonne,tailor,,"Mo-Fr,Su 08:00-19:00"
+9462619446,-0.0738764,34.6890141,Dala Dala Fashion And Designs,tailor,,Mo-Sa 08:00-17:00
+9462619449,-0.1343333,34.742385,Mama Kyle Tailoring Shop,tailor,,Mo-Sa 08:00-18:00
+9462619457,-0.1125444,34.7692525,Davi,tailor,,Mo-Su 09:00-18:00
+9462619461,-0.0952496,34.7671143,Bb,chemist,,Mo-Fr 08:00-16:00
+9462619462,-0.0595365,34.784416,Anyango's Tailoring Shop,tailor,,Mo-Sa 09:00-18:00
+9462619464,-0.1010382,34.7679492,Kona Shop,chemist,,Mo-Sa 07:00-19:00
+9462619467,-0.0352517,34.7931817,Daraja Mbili Tailoring,tailor,,"Mo-Fr,Su 08:00-18:00"
+9462619469,-0.0907503,34.7812172,Grace Tailoring Shop,tailor,,Mo-Fr 09:00-18:30
+9462619471,-0.0976891,34.7808113,Nyandhiwa Shop,tailor,,"Mo-Fr,Su 08:00-18:00"
+9462619475,-0.1286789,34.7494805,Jacky Caps Interior Decor,tailor,,"Mo-Fr,Su"
+9462619478,-0.0765165,34.7951823,Nyakwar Osuta Tailoring Shop,tailor,,Mo-Fr 08:00-19:00
+9462619482,-0.1011387,34.7602737,Charles Tailoring Shop,tailor,,Mo-Sa 08:00-18:00
+9462619484,-0.128293,34.747706,Sky Web Base Tailoring Workshops,tailor,,Mo-Sa
+9462619486,-0.0829717,34.7723733,Lakeside Tailoring Centre,tailor,,Mo-Sa 08:00-17:00
+9462619487,-0.0829795,34.7779881,David,chemist,,"Tu,Fr sunset-sunrise open"
+9462619490,-0.1171292,34.788217,Mama Val Tailoring,tailor,,Mo-Sa 08:00-18:00
+9462619492,-0.0622435,34.8159054,Kibos Sugar,chemist,,Mo-Su sunset-sunrise open
+9462619493,-0.0386037,34.680472,Aphy Boutique And Tailoring,tailor,,Mo-Sa 08:00-18:00
+9462619494,-0.11899,34.7606511,Ann Tailoring Shop,tailor,,Mo-Sa 09:00-18:00
+9462619496,-0.0952806,34.7675895,Zamunda Tailoring Solutions,tailor,,Mo-Sa 08:00-17:00
+9462619501,-0.1280136,34.7509729,Mama Jamila Tailoring,tailor,,"Mo-Fr,Su"
+9462619503,-0.1487699,34.8267909,Slaughter House Tailoring,tailor,,Mo-Sa 08:00-19:00
+9462619511,-0.0978809,34.765425,Nery Printers,copyshop,,Mo-Sa
+9462619520,-0.0804255,34.7718861,Jumba Tailoring Shop,tailor,,Mo-Su 07:00-22:00
+9462619523,-0.1105808,34.761828,Safe Water And Aids Project,chemist,,Mo-Fr 08:00-17:00
+9462619524,-0.0947893,34.7677263,Create And Design,tailor,,Mo-Sa 08:00-20:00
+9462619527,-0.0864776,34.7812004,Cate's Fashions,tailor,,Mo-Sa 07:00-18:00
+9462619528,-0.0711163,34.8093784,Kibos Sugar,chemist,,Mo-Sa sunset-sunrise open
+9462619529,-0.0838501,34.7790658,Sauti Furniture And Workshop,furniture,,Mo-Sa 08:00-17:00
+9462619531,-0.100981,34.7687683,Velma Tailoring,tailor,,"Mo-Fr,Su 08:00-19:00"
+9462619539,-0.124959,34.7556517,Mama Shammah Tailoring,tailor,,"Mo-Fr,Su"
+9462619547,-0.09693,34.75416,Kamas Kisumu,tailor,,Mo-Su 07:00-18:00
+9462619554,-0.0598471,34.779653,Beatrice Enterprises Limited,chemist,,Mo-Sa 08:00-18:00
+9462619561,-0.0802838,34.771801,Shalom Tailoring Shop,tailor,,Mo-Sa 08:00-18:00
+9462619565,-0.0254993,34.7475992,Samaria Tailoring,tailor,,Mo-Sa 08:00-17:00
+9462619572,-0.1130357,34.7654592,Alego Fasion,tailor,,Mo-Sa 08:00-18:00
+9462619579,-0.0736545,34.7099109,Winrose Enterprise,tailor,,Mo-Sa 09:00-18:00
+9462619584,-0.0709432,34.8108775,Japolo Tailor Shop,tailor,,Mo-Sa 07:00-20:00
+9462619589,-0.0483911,34.8105754,Guba Tailoring Shop,tailor,,Mo-Sa 19:00-17:00
+9462619593,-0.0957853,34.7834537,Brembo Tailor Shop,tailor,,Mo-Su 07:00-20:00
+9462619594,-0.0626075,34.7776702,Pam Tailoring Shop,tailor,,"Mo-Fr,Su 08:30-17:30"
+9462619596,-0.0927696,34.7760204,Nya-ukwala Tailoring And Dressmaking,tailor,,Mo-Su 11:00-18:00
+9462619597,-0.0381847,34.6802463,Crival House Of Beauty,tailor,,Mo-Sa 08:00-17:00
+9462682156,-0.1009494,34.7504796,Oriwo Shop,tailor,,Mo-Sa 08:00-16:00
+9462682158,-0.0246893,34.7474379,Mona General Merchants,tailor,,Mo-Sa 07:00-19:00
+9462682162,-0.0862831,34.7412319,Equitor Bottlers,chemist,,Mo-Su 08:00-17:00
+9462682165,-0.0965653,34.7759737,Kasavana Textile,tailor,,Mo-Sa 09:00-18:30
+9462682182,-0.1269468,34.7537367,Mama Tailoring,tailor,,Mo-Sa
+9462682188,-0.1205949,34.7545309,Joel Enterprise,chemist,,"Mo-Fr,Su"
+9462682193,-0.1558001,34.8632463,Upendo Tailoring,tailor,,Mo-Su 06:00-19:00
+9462682199,-0.0996674,34.7545516,Kisumu Curtain Centre,curtain,,"Mo-Th,Sa,Su 08:00-21:00"
+9462682200,-0.0960191,34.7548704,Isumu Home Tailoring,tailor,,Mo-Sa 07:00-19:00
+9462682201,-0.1169505,34.759302,Flozy Detergent,chemist,,"Mo-Fr,Su"
+9462682202,-0.0985375,34.7673744,Skamart Fashion And Design,tailor,,Mo-Su 08:00-17:00
+9462682204,-0.0357027,34.7036716,Gumba Tailoring Solutions,tailor,,Mo-Sa 08:00-18:00
+9462682210,-0.0886721,34.7759918,Phenny Tailor Shop,tailor,,Mo-Sa 07:00-19:00
+9462682216,-0.0729642,34.7877973,Akinyi Tailoring,tailor,,"Mo-Fr,Su 07:00-18:00"
+9462682918,-0.1009915,34.7612167,Industrial Detergent,chemist,,Mo-Sa 08:00-20:00
+9462682922,-0.1000958,34.7552471,Nuyuseba Tailoring And Curtain Shop,tailor,,"Mo-Th,Sa, Su 08:00-18:00"
+9462682924,-0.0977949,34.7754384,Faraja Solutions,tailor,,Mo-Fr 08:00-17:00
+9462682926,-0.1130299,34.765803,Judy's Shop,chemist,,"Mo-Fr,Su 10:00-16:00"
+9462682935,-0.0597535,34.7711647,Lake Basin Tailoring,tailor,,"Mo-Fr,Su 07:00-19:00"
+9462682937,-0.0755942,34.7088212,Victoria Fusion,tailor,,Mo-Sa 10:00-18:00
+9462682944,-0.0830757,34.7787198,Dorothy Amayamu,chemist,,"Tu,Fr sunset-sunrise open"
+9462682945,-0.0980451,34.7531688,Amito Stores,tailor,,Mo-Fr 08:00-17:00
+9462682949,-0.0243167,34.7473049,Millicent Tailoring Shop,tailor,,Mo-Sa 19:00-17:00
+9462682958,-0.0713861,34.8085695,Carol Tailoring Shop,tailor,,"Mo,We,Su"
+9462682960,-0.0798901,34.7749948,Ben Dressmaking,tailor,,Mo-Sa 08:00-17:00
+9462682963,-0.0830025,34.7706262,Maurice Cleaners,chemist,,"Mo-Fr,Su"
+9462682964,-0.1128808,34.7656264,Buddies,tailor,,Mo-Sa 09:00-18:00
+9462682965,-0.0874774,34.7756869,Tailoring Shop,tailor,,Mo-Fr 08:00-18:00
+9462682971,-0.0783386,34.7891637,In Style Fashion,tailor,,Mo-Sa 09:00-17:00
+9462682982,-0.1165101,34.7872074,Candy's Fashion House,tailor,,Mo-Sa 08:00-18:00
+9462682987,-0.1118395,34.7670215,Eric Fitting,tailor,,Mo-Sa 08:00-21:00
+9462682989,-0.0250506,34.7474314,Osumo Stores,tailor,,Mo-Sa 09:00-17:30
+9462682997,-0.1103208,34.7692456,Nyangera Tailoring,tailor,,Mo-Sa 07:00-19:00
+9462682998,-0.05738,34.7826752,Linet Oliech,chemist,,Mo-Sa 08:00-18:00
+9462682999,-0.0362619,34.7033381,Pamela Tailoring Shop,tailor,,Mo-Sa 08:00-18:00
+9462683006,-0.0578029,34.7852297,Rose Bella,chemist,,Mo-Su 09:00-18:00
+9462683010,-0.1673337,34.7929112,Vincent Tailoring Shop,tailor,,Mo-Sa 08:00-18:00
+9462683012,-0.0794185,34.7769798,Mama Tim Tailoring Shop,tailor,,Mo-Sa 08:00-17:00
+9462683013,-0.0972843,34.7538155,Njema Atieno,tailor,,Mo-Sa 06:00-20:00
+9462683016,-0.0977341,34.7735856,Davis Tailoring Shop,tailor,,"Mo-Fr,Su 08:00-17:00"
+9462683018,-0.0951112,34.7804252,Mama Cheryl Tailoring Shop,tailor,,Mo-Fr 08:00-18:00
+9462683019,-0.0956644,34.767326,Lily School Of Dress Making,tailor,,"Mo-Fr,Su 08:00-18:00"
+9462683022,-0.0951925,34.780423,Koleta Shop,tailor,,Mo-Fr 09:00-18:00
+9462683023,-0.0977186,34.77812,No Name Yet,tailor,,"Mo-Fr,Su 09:00-18:00"
+9462683030,-0.0808516,34.7822918,Nyasuba Tailors,tailor,,Mo-Sa 08:00-18:00
+9462683034,-0.0737358,34.7801608,J L Tailoring,tailor,,Mo-Su 08:00-20:00
+9462683035,-0.0573652,34.7826732,Linet Oliech,tailor,,Mo-Sa 08:00-18:00
+9465883823,-0.0870287,34.7786919,Everlyn,tailor,,Mo-Sa 08:00-18:00
+9465883829,-0.0965652,34.7536481,Otieno Oyoo Street Cap,tailor,,Mo-Su 08:00-19:00
+9465883831,-0.0956644,34.767326,C And S Tailoring And Design,tailor,,Mo-Sa 08:00-18:00
+9465883833,-0.1297418,34.7456278,Salon & Dress Making,tailor,,"Mo-Fr,Su"
+9465883834,-0.0755466,34.7086504,Mary Tailoring Shop,tailor,,Mo-Sa 08:00-18:00
+9465883837,-0.0808053,34.7709915,God Is Great Fashion And Design,tailor,,Mo-Sa 07:00-17:00
+9465883842,-0.098175,34.771862,Thomas Bonyo,tailor,,Mo-Sa 08:00-17:00
+9465883844,-0.0710553,34.8108474,Otieno Tailor Shop,tailor,,Mo-Sa 07:00-20:00
+9465883845,-0.1488523,34.8268672,Millicent Atieno,tailor,,Mo-Sa 07:00-18:00
+9465883846,-0.0759463,34.7849521,Tabitha Tailoring,tailor,,"Mo-Fr,Su 09:00-18:00"
+9465883848,-0.0882825,34.7756687,Kwang'a Tailoring Shop,tailor,,Mo-Sa 08:00-20:00
+9465883849,-0.1254232,34.7534389,Mama Richy Workshop,tailor,,Mo-Sa
+9465883855,-0.0885659,34.7815017,Kona Maji Taloring Shop,tailor,,Mo-Sa 08:00-19:00
+9465883861,-0.0823498,34.7756884,Lohman Chemicals,chemist,,Mo-Sa
+9465883863,-0.1254225,34.7534898,Mama Alpha Tailoring Shop,tailor,,Mo-Sa
+9465883868,-0.0976215,34.7535816,Galaiya Stores,model,,Mo-Sa 08:30-17:00
+9465883869,-0.1296197,34.7456371,House,chemist,,"Mo,We,Fr"
+9465883870,-0.0759706,34.7085891,Opendo Tailoring,tailor,,Mo-Sa 06:00-18:00
+9465883875,-0.124715,34.7530067,Goreti Shop,chemist,,"Mo-Fr,Su"
+9465883876,-0.1431923,34.736935,Dunga Jcc Tailoring,tailor,,Mo-Sa 09:00-18:00
+9465883887,-0.1258033,34.75386,Alice Apparel,tailor,,"Mo-Fr,Su"
+9465883900,-0.0766375,34.7775038,Cyneth Home Wash,chemist,,
+9465883901,-0.0829266,34.7785549,Winfrida Ochieng,chemist,,Mo-Fr 09:00-17:00
+9465883903,-0.0841129,34.7795123,Mama Lucy Tailoring Shop,tailor,,Mo-Sa 09:00-18:00
+9465883904,-0.0826087,34.7797533,Beatrice,chemist,,Mo-Su 08:00-18:00
+9465883905,-0.156904,34.8624834,Ka Joseph Odongo Tailoring,tailor,,Mo-Sa 08:00-18:00
+9465883908,-0.0710886,34.8091544,Aluoch Tailor Shop,tailor,,Mo-Sa 08:00-19:00
+9465883913,-0.0996167,34.8468583,Mama Hawking Tailoring,tailor,,Mo-Su 08:00-19:00
+9465883916,-0.1157075,34.7640827,Jane Tailoring Shop,tailor,,Mo-Sa 09:00-18:00
+9465905617,-0.09689,34.755765,Jua.Kali,tailor,,Mo-Su 06:00-20:00
+9465905627,-0.0775079,34.6897994,Christine Salon And Tailoring,tailor,,Mo-Sa 07:00-18:00
+9465905631,-0.0955791,34.7682119,Gemimo Uniform Centre,tailor,,Mo-Su 08:00-18:00
+9465905632,-0.0756416,34.7767781,Abbi Creation,tailor,,Mo-Fr 08:00-17:00
+9465905633,-0.0491392,34.8098908,Steve Tailoring,tailor,,Mo-Su 08:00-18:00
+9465905634,-0.0389202,34.7582013,Annah Tailoring Shop,tailor,,Mo-Sa 09:00-17:00
+9465905635,-0.131362,34.744488,Kawuon Nyarombo,tailor,,Mo-Sa
+9465905636,-0.0949876,34.7801283,Home Based,chemist,,Mo-Sa 08:00-19:00
+9465905637,-0.0830158,34.8002191,Linet Atieno Omollo,chemist,,Mo-Sa 08:00-18:00
+9465905639,-0.097665,34.7781207,Gasia Tailoring,tailor,,"Mo-Fr,Su 08:00-17:00"
+9465905645,-0.0906073,34.7760198,Sarah's Tailoring Shop,tailor,,Mo-Fr 09:00-18:00
+9465905648,-0.0978843,34.7529455,Gillies Opiyo Tailoring,tailor,,"Mo-Fr,Su 08:00-18:00"
+9465905655,-0.1271862,34.7481712,Mama Vivian Tailoring Workshop,tailor,,Mo-Sa
+9465905657,-0.1304639,34.7449422,Jabetun Tailoring Shop,tailor,,"Mo-Fr,Su 09:00-17:00"
+9465905658,-0.0585637,34.7850315,Nyabera Textile And Tailoring Shop,tailor,,Mo-Sa 07:00-18:00
+9465905659,-0.0544187,34.7533429,Vincent Oloo,tailor,,"Mo-Fr,Su 08:00-17:00"
+9465905661,-0.0967368,34.7810021,Dorcass,chemist,,Mo-Su
+9465905667,-0.0798917,34.7671867,Doris Tailor Shop,tailor,,Mo-Sa 08:00-19:00
+9465905670,-0.1251001,34.7535397,Ka Jasongo Tailoring Shop,tailor,,"Mo-Fr,Su"
+9465905673,-0.089068,34.7800314,Ash And Jill,tailor,,Mo-Sa 09:00-18:00
+9465905676,-0.0709799,34.8103424,Sakina Tailor Shop,tailor,,Mo-Sa 07:00-19:00
+9465905684,-0.0612756,34.767033,Cannan Tailoring,tailor,,Mo-Sa 08:00-18:00
+9465905686,-0.0250353,34.7470989,Joyliz Tailoring Shop,tailor,,Mo-Sa 08:00-17:00
+9465905691,-0.0870762,34.7768137,Donnel,tailor,,Mo-Sa 08:00-17:00
+9465905694,-0.0999778,34.7548812,Nubrak Tailoring Shop,tailor,,Mo-Su sunset-sunrise open
+9465905701,-0.0800932,34.7669261,Vincent Tailor Shop,tailor,,Mo-Su 08:00-19:00
+9465905709,-0.0970092,34.7780773,Nyakwara Tailoring Ltd,tailor,,Mo-Sa 08:00-18:30
+9465905710,-0.0552957,34.7823422,Majiwa Tailoring,tailor,,Mo-Sa 08:00-18:00
+9465905715,-0.038547,34.680426,Mama Shan Tailoring Shop.,tailor,,Mo-Sa 09:00-17:30
+9465905718,-0.124629,34.7587865,Nyamalo Tailoring,tailor,,Mo-Sa
+9465905723,-0.1234288,34.7548891,Min Senji,tailor,,Mo-Sa 10:00-19:00
+9465905727,-0.1499101,34.8258436,Ka Min Beff Tailoring,tailor,,Mo-Sa 08:00-19:00
+9465905734,-0.0999913,34.7548728,Mega Tailoring Shop,tailor,,"Mo-Th,Sa,Su 07:00-21:00"
+9465905742,-0.1264517,34.7598031,Mama Shalloh,tailor,,Mo-Fr
+9465905743,-0.0252458,34.7471184,Jomaha Tailoring Shop,tailor,,Mo-Sa 08:00-17:30
+9465905746,-0.0357525,34.704283,Jandori Juma Tailoring,tailor,,Mo-Sa 08:00-18:00
+9465905755,-0.0257337,34.7488139,Elelyon Tailoring And Boutique,tailor,,"Tu,We,Fr,Sa,Su 08:00-18:00"
+9465905758,-0.0552059,34.7822404,Jasuba Tailoring,tailor,,Mo-Sa 08:00-18:00
+9465905759,-0.0713412,34.81102,Daktari Garment And Tailoring,tailor,,Mo-Sa 07:00-20:00
+9465905760,-0.081379,34.7719038,Mama Obuya,tailor,,Mo-Sa 08:00-18:00
+9465905761,-0.0814662,34.7653854,Ziki,chemist,,Mo-Su 07:00-18:00
+9465905764,-0.12578,34.75385,Aqua Foss,chemist,,"Mo-Fr,Su"
+9465905766,-0.0907068,34.7760934,Sarah Tailor Shop,tailor,,Mo-Su 07:00-19:00
+9465905768,-0.0987873,34.7781211,Kabobo Tailoring Shop,tailor,,Mo-Sa
+9465905769,-0.1176661,34.7592865,Fifi Detergents,chemist,,"Mo-Fr,Su"
+9465905775,-0.0994343,34.8463916,Rambles Tailoring,tailor,,Mo-Sa 08:00-19:00
+9465905781,-0.1228911,34.7521446,Leah Tailoring Workshop,tailor,,Mo-Sa
+9465905785,-0.0877682,34.7808874,Willis Fashions,tailor,,Mo-Sa 09:00-17:00
+9465905787,-0.124716,34.7585988,Liz Tailoring Shop,tailor,,"Mo-Fr,Su"
+9465905791,-0.0535953,34.7926156,Migeni Tailoring Shop,tailor,,Mo-Sa 08:00-18:30
+9465905794,-0.0244488,34.7454995,No Name Yet,tailor,,Mo-Sa 08:00-18:00
+9465905802,-0.0960191,34.7548704,Odongo Welding,tailor,,Mo-Su 07:00-20:00
+9465905803,-0.0877763,34.7793798,Micha Tailoring Shop,tailor,,Mo-Sa 08:00-17:00
+9465905804,-0.1179682,34.7588601,Mama Don Apparel,tailor,,Mo-Fr
+9465905805,-0.1312833,34.7444188,Baba Nyarombo Tailoring,tailor,,Mo-Su 09:00-18:00
+9467664683,-0.0814732,34.7816278,Cadra,chemist,,Mo-Su 10:00-18:00
+9467664686,-0.0784017,34.7696933,Scovia Tailor Shop,tailor,,Mo-Sa 08:00-19:00
+9467664687,-0.0956644,34.767326,Mama Mike Tailoring,tailor,,Mo-Sa 07:00-20:00
+9467664690,-0.1266185,34.7526538,Nyagwasi Designs,tailor,,"Mo-Fr,Su 09:00-18:00"
+9467664696,-0.1230792,34.7547922,Ambogo Workshop,tailor,,Mo-Sa 08:00-18:00
+9467664701,-0.1132099,34.765869,Achieng,tailor,,Mo-Sa
+9467664702,-0.120614,34.754366,Dee Biz,chemist,,"Mo-Fr,Su"
+9467664703,-0.1109122,34.768378,Eva's Shop,tailor,,"Mo-Fr,Su 08:00-18:00"
+9467664707,-0.1245771,34.7536641,Gracious Designs,tailor,,"Mo-Fr,Su 09:00-18:00"
+9467664714,-0.0755554,34.7808022,Samuel Tailoring,tailor,,Mo-Su 08:00-18:00
+9467698819,-0.0974172,34.7759065,Aduda Workshop,tailor,,Mo-Sa 19:00-17:00
+9467698820,-0.0830845,34.8001846,Obonyo Tailoring,tailor,,Mo-Su 08:00-18:00
+9467698824,-0.0820667,34.7648133,Maureen Tailoring Shop,tailor,,Mo-Su 08:00-20:00
+9467698826,-0.1205534,34.7543576,Moniq,chemist,,Mo-Fr
+9467698827,-0.1122333,34.7687601,Atieno Tailoring Shop,tailor,,Mo-Su 08:00-18:00
+9467698832,-0.0534934,34.7884613,Mama Dota Tailoring Shop,tailor,,Mo-Sa 08:00-18:00
+9467698834,-0.0737128,34.7810857,Lolwe Tailoring,tailor,,Mo-Sa 08:00-20:00
+9467698836,-0.1324017,34.743435,House,chemist,,Mo-Fr 10:00-18:00
+9467698837,-0.0886464,34.7796477,Mama Dorian Dress Making Shop,tailor,,Mo-Sa 08:00-18:30
+9467698839,-0.071092,34.8091324,Kibos,tailor,,Mo-Fr 08:00-17:00
+9467698840,-0.095655,34.7673314,Real Fasion,chemist,,"Mo-Fr,Su 08:00-19:00"
+9467698842,-0.0952358,34.7669469,Lilian Oyugi,chemist,,Mo-Fr 09:00-16:00
+9467698844,-0.0990553,34.7697439,Brook,chemist,,Mo-Th 08:00-19:00
+9467698846,-0.10383,34.7576063,Supremer Industry Kenya Limited,tailor,,Mo-Sa 08:00-17:00
+9467698847,-0.064368,34.7630084,Obama Tailoring,tailor,,Mo-Sa 08:00-18:00
+9467698848,-0.0962042,34.7700361,Nice Tailoring,tailor,,Mo-Fr 08:30-18:00
+9467698854,-0.0956436,34.7673327,Agustin Shop,chemist,,Mo-Su 09:00-19:00
+9467698861,-0.1202091,34.761459,Pheny,chemist,,"Mo-Fr,Su 10:00-18:00"
+9467698864,-0.1500741,34.8254082,Ka Onyango Odoyo Tailoring,tailor,,Mo-Sa 08:00-20:00
+9467698871,-0.1171852,34.7622201,Eunice,chemist,,"Mo-Fr,Su 08:00-16:00"
+9467698872,-0.0957017,34.7671989,Shayla,chemist,,Mo-Sa 10:00-18:00
+9467698876,-0.0384567,34.6819143,Dag Chikruok Fashion And Design Tailoring,tailor,,Mo-Sa 10:00-18:00
+9467698878,-0.1317738,34.7440894,Dorine Dress Making,tailor,,Mo-Sa 09:00-18:00
+9467698891,-0.0250049,34.7471075,Queens Beauty Shop,tailor,,Mo-Sa 08:00-18:00
+9467698892,-0.0857188,34.777979,Nancy Tailoring Shop,tailor,,Mo-Sa 08:00-18:00
+9467698897,-0.0966682,34.7697743,Eva's Tailoring Shop,tailor,,Mo-Fr 08:00-19:00
+9467698906,-0.0786617,34.7691515,James,chemist,,Mo-Sa 08:00-19:00
+9467698912,-0.0243392,34.7457139,Rembo Tailoring,tailor,,"Mo-We,Fr,Sa 08:00-18:00"
+9467698913,-0.1502055,34.8262411,Ka Sharon Tailoring,tailor,,Mo-Sa 08:00-19:00
+9467698915,-0.0588855,34.7846857,Nyanya's Tailors,tailor,,Mo-Sa 08:00-18:00
+9467698918,-0.1161411,34.786713,Mama Gloria Shop,chemist,,Mo-Sa 09:00-18:00
+9467698920,-0.0965338,34.7809887,Emma Tailor Shop,tailor,,Mo-Sa 10:00-18:00
+9467698921,-0.1189273,34.7598649,Mama Jay,chemist,,Mo-Sa 08:00-17:00
+9467698922,-0.0737734,34.6895722,Diana,tailor,,Mo-Sa 09:00-18:00
+9467698927,-0.0878873,34.7807125,Josephine,tailor,,Mo-Sa 09:00-17:00
+9467698928,-0.1316819,34.7440815,Doreen's Dress Making & Saloon,tailor,,Mo-Su
+9467698932,-0.0385309,34.6804578,Mama Becky Tailoring Shop,tailor,,Mo-Fr 10:00-18:00
+9467698933,-0.1175331,34.7596055,Jiji Design,tailor,,Mo-Fr
+9467698936,-0.1230309,34.7522629,Filida Quick Access,chemist,,"Mo-Fr,Su"
+9467698939,-0.0967368,34.7810021,Stacy,chemist,,Mo-Su
+9467698940,-0.1036849,34.7579966,Ankara Place,tailor,,Mo-Sa 09:00-18:00
+9467698947,-0.050795,34.8065251,Mama Nicole Tailoring,tailor,,Mo-Sa 11:00-18:30
+9467698952,-0.0480606,34.8047314,Nyabondo Tailoring Shop,tailor,,Mo-Fr 10:00-18:00
+9467698955,-0.1130299,34.765803,Jesca Shop,chemist,,Mo-Su 08:00-18:00
+9467698963,-0.0756106,34.7767177,Josephine Shop,tailor,,Mo-Sa 08:00-18:00
+9467698966,-0.1229344,34.752345,Rosy's Apparel,tailor,,Mo-Fr
+9467698968,-0.0814244,34.7714567,Dan's Fashions,tailor,,Mo-Sa 08:00-18:00
+9467698969,-0.0992005,34.7804817,Joseph,chemist,,"Mo-Fr,Su 10:00-18:00"
+9467698972,-0.083549,34.7744642,Terry Fashions And Design,tailor,,Mo-Fr 10:00-18:00
+9467698976,-0.118715,34.7579417,Violet Apparel,tailor,,Mo-Fr
+9467698981,-0.0787433,34.7692,Hudson Tailor Shop,tailor,,Mo-Sa 08:00-19:00
+9467698984,-0.0779769,34.7920643,Jannet Shop,chemist,,Mo-Sa 09:00-18:00
+9467698986,-0.0807934,34.7758351,Raakez,tailor,,Mo-Sa 08:00-18:00
+9467698989,-0.0607037,34.7806516,Flevicks Complex Shop,chemist,,Mo-Sa 09:00-18:00
+9467698992,-0.1275433,34.7506967,Rystobiz Design,tailor,,Mo-Fr
+9467698996,-0.0890568,34.7701046,Monroe Beauty Shop,chemist,,Mo-Su 08:00-18:00
+9467699001,-0.1129289,34.7677798,Winny Tailoring Shop,tailor,,"Mo-Fr,Su 08:00-19:00"
+9467699005,-0.1038568,34.7576471,Kibos Sugar And Allied Industries,chemist,,Mo-Su sunset-sunrise open
+9467699012,-0.1150767,34.7647999,Bether,chemist,,"Mo-Fr,Su 10:00-18:00"
+9467699025,-0.0492768,34.8046549,Ann Tailoring Shop,tailor,,Mo-Sa 07:00-19:00
+9467699026,-0.082881,34.767462,Kmet,tailor,,Mo-Sa 08:00-18:00
+9963957456,-0.0830599,34.7768351,Mejasan Photo Studio,photo,,Mo-Sa 08:00-20:00
+10220091923,-0.107399,34.7692962,Odds & Ends,furniture,,
+10559137642,-0.1068974,34.7520682,Chandarana FoodPlus,supermarket,,
+10579036145,-0.0831103,34.7748747,Sintora General Hardware,hardware,,
+10579036147,-0.0831142,34.7747058,Amigo Hardware Ltd.,hardware,,
+10579036148,-0.082885,34.774885,Kisumu Poultry Centre Appointed Distributors,yes,,
+10579036149,-0.0830038,34.774878,Micromed Pharmacy,chemist,,
+10579036150,-0.0827821,34.7748429,Citymart electricals & Hardware,electrical,,
+10588857558,-0.0929534,34.7638524,Roastiez butchery,butcher,,
+10588857559,-0.0928839,34.7637912,Platinum Liquor World,alcohol,,
+10676351501,-0.0805892,34.7821906,Bhole Kondele Ltd.,hardware,,
+10676351503,-0.0751364,34.7961832,Migosi Hardware,hardware,,
+10718898100,-0.0781062,34.7727546,Nyawita,,marketplace,
+10758265053,-0.119395,34.7889988,Elyco Motors Limited,car_repair,,
+10796828642,-0.0792897,34.7554929,Toyota,car_repair,,
+10796828643,-0.0921045,34.7566319,Kisumu Toyota,car,,
+10796834255,-0.0906779,34.7570587,Fuso Mitsubishi Motors,car,,
+10860047051,0.0349866,34.691672,Bukuga Market,,marketplace,
+10898735238,-0.0983258,34.7625758,Carrefour,supermarket,,
+10898735241,-0.0983325,34.7629265,Toyzoona Limited,Educational Toys,,Mo-Su 10:00-21:00
+10898735243,-0.098463,34.7618688,Bata,shoes,,
+10898822426,-0.1046942,34.7533867,Optica,optician,,
+10898822429,-0.1040425,34.7524668,Jade Collections,clothes,,
+10898822430,-0.104131,34.7527208,Carrefour,supermarket,,
+10898822431,-0.1039848,34.7526448,Beyond Fruits,greengrocer,,
+10898875921,-0.1036224,34.7524032,Oppo,mobile_phone,,
+10898875922,-0.1036835,34.7529235,,mobile_phone,,
+10898875924,-0.1020147,34.7523075,Safaricom,mobile_phone,,
+10904818374,-0.1037513,34.7524553,Tecno,mobile_phone,,
+10904818375,-0.104126,34.7522611,Nila Baby Shop,baby_goods,,
+10904818376,-0.1042038,34.7525347,Valentine Cake House,pastry,,
+10904818377,-0.104119,34.7531917,Bata,shoes,,
+10904818378,-0.102912,34.752547,Text Book World Ltd.,books,,
+10904818379,-0.10278,34.7524737,Bata,shoes,,
+10904818382,-0.1013066,34.7533028,Indcom Enterprises Ltd.,yes,,
+10904818383,-0.0982816,34.7536518,Kisumu City Auto Tyres,tyres,,
+10904818384,-0.0983883,34.7535819,Piki Piki Agencies,motorcycle_repair,,
+10904818389,-0.0985353,34.7533451,Crown Paints,paint,,
+10904818395,-0.0987268,34.7530779,Skylark,bathroom_furnishing,,
+10904818396,-0.0992911,34.7525336,Vision Techno Trade Company Ltd.,doityourself,,
+10918048834,-0.1011591,34.7514069,Yaken Electronics,electronics,,
+10918048835,-0.1010258,34.7516154,Hubsan Tools,doityourself,,
+10918048836,-0.1009364,34.7515715,Fulshand Keshav Ji Shah Bookshop,books,,
+10918048837,-0.1009744,34.751308,Kenya Credit Traders Ltd.,money_lender,,
+10918048838,-0.101049,34.7513485,Lafey Electricals & Machineries,electrical,,
+10918048839,-0.1008243,34.7515054,A to Z Ltd.,clothes,,
+10918048840,-0.1007454,34.7514741,Honda,motorcycle,,
+10918048842,-0.1007533,34.7512098,Yamaz Electricals & Home Appliances,appliance,,
+10918064954,-0.1030007,34.7522028,Samsung,electronics,,
+10918064956,-0.1033228,34.7523077,Infinix,mobile_phone,,
+10918064957,-0.1029266,34.7521794,Tecno,mobile_phone,,
+10918064958,-0.1032169,34.7522671,Oppo,mobile_phone,,
+10918157042,-0.0818858,34.7283103,Jambojet,ticket,,
+10918157043,-0.081631,34.7287529,Kenya Airways,ticket,,
+10918157044,-0.0818268,34.7288655,Safaricom,mobile_phone,,
+10921144544,-0.0975036,34.7501618,Prafulla enterprises Ltd.,wholesale,,
+10921144545,-0.0973951,34.750299,Dr. Matress,bed,,
+10921144546,-0.0972279,34.7501655,Fairdeal home& Office Furniture,furniture,,
+10921144547,-0.0971929,34.7504725,Trans Africa Water,hardware,,
+10921144548,-0.0972316,34.7508893,Davis & Shirtliff,hardware,,
+10921144549,-0.0973863,34.7510091,Office Mart,stationery,,
+10921144550,-0.103898,34.7530257,Office Mart,stationery,,
+10921144551,-0.0970208,34.7511444,Jumbo Steel Mills,hardware,,
+10921245482,-0.0963208,34.7512638,Jumbo Steel Mills,hardware,,
+10921245483,-0.0963775,34.7517957,Reliance Auto Centre,car_repair,,
+10921245484,-0.096264,34.7518993,Bachulal popatlal,gas,,
+10921245485,-0.0961663,34.7520166,Mjengo Supermart,wholesale,,
+10921245486,-0.0958436,34.7518309,Jubilee Jumbo,hardware,,
+10921245487,-0.0960685,34.7521163,Nyanza Engineering & Hardware,hardware,,
+10921245488,-0.095742,34.7519697,Jubilee Enterprises,hardware,,
+10921245489,-0.0959923,34.7522239,Jubilee Hardware,hardware,,
+10921245490,-0.0957308,34.7524831,Lionhart Motors,car,,
+10921245491,-0.0955963,34.7526323,MAXXIS,tyres,,
+10921245493,-0.0953826,34.7524386,Laxmi Hardware,hardware,,
+10921245494,-0.0951773,34.7526606,U shop,wholesale,,
+10921245495,-0.1042203,34.752035,Healthy U,supermarket,,
+10921245496,-0.0950068,34.7534152,Plascon,paint,,
+10921245501,-0.0942107,34.7536374,Dura coat,paint,,
+10921326304,-0.0939637,34.7538958,KUKI General Merchants Ltd,hardware,,
+10921350905,-0.0943958,34.75415,Isuzu,car,,
+10921350908,-0.0936567,34.7541324,Jubilee Steel Mills,hardware,,
+10921350910,-0.0939413,34.7545516,Chloride Exide,car_parts,,
+10926260744,-0.0929497,34.7550666,C&G Motors,motorcycle,,
+10926260745,-0.0927352,34.75531,Hardware Tiles & Electricals,hardware,,
+10926260746,-0.0929209,34.7556469,DT Dobie,car,,
+10926260747,-0.0928452,34.755739,Simba Corp Motors,car,,
+10926260748,-0.0927119,34.7558806,Shajanand Hardware & Ceramics,hardware,,
+10926260749,-0.0934832,34.7550419,Al Husnain Motors,car,,
+10926260750,-0.0919364,34.7568555,Kisumu house of lighting & Decor,interior_decoration,,
+10926260751,-0.0923132,34.7562933,Transafrica Motors,car,,
+10928722539,-0.0904257,34.7567675,Pabari Enterprises,hardware,,
+10928722540,-0.0902484,34.7568175,Basco Products Ltd,paint,,
+10928722541,-0.089964,34.7569166,Kifaru Enterprises,hardware,,
+10928804983,-0.1069655,34.752007,TACC store Tiles & carpets,carpet,,
+10928805128,-0.0905417,34.756741,TACC collection point,interior_decoration,,
+10928805131,-0.0909562,34.7565784,Sunbake Enterprises,wholesale,,
+10928805132,-0.09146,34.756338,Nyanza Sugar & produce Ltd,farm,,
+10928805133,-0.091586,34.756267,Kenya Wine Agencies Ltd,alcohol,,
+10928805134,-0.0917394,34.7562257,Extec Construction Marketplace,hardware,,
+10928805135,-0.0918287,34.7561593,Mjengo Supermart Ltd,hardware,,
+10928805137,-0.092431,34.7561777,SHL Kenya,hardware,,
+10928805138,-0.0925204,34.7560861,Kisumu Shiva Enterprises,hardware,,
+10928805139,-0.0922295,34.7564204,Victoria Enterprises,hardware,,
+10928935692,-0.0979224,34.7512343,Mawele Wines & Spirits,alcohol,,
+10928935693,-0.0979792,34.7512878,Paul Packaging Items,wholesale,,
+10928935694,-0.0980693,34.7513779,Neeshee Enterprises,hardware,,
+10928935695,-0.0980372,34.7550798,,kiosk,,
+10928935696,-0.0979593,34.7550042,Apechem Agrovet,agrarian,,
+10928935697,-0.0976639,34.7547065,Tyretec,tyres,,
+10928935698,-0.097712,34.7547569,Victory Tools & Machinery,doityourself,,
+10928935700,-0.0990434,34.7507193,Plascon,paint,,
+10928935701,-0.0987276,34.7509417,Prahant,hardware,,
+10928935702,-0.0984191,34.7516943,Pelger Paints,paint,,
+10928935703,-0.0982708,34.7515703,ANVI Emporium,hardware,,
+10928935961,-0.0981696,34.7516986,Salpro Kisumu Ltd,wholesale,,
+10928935962,-0.0979843,34.7518953,Menengai Hardware,hardware,,
+10928935963,-0.0981497,34.7519994,Pelger Paints Kisumu Depot,paint,,
+10928935964,-0.0980627,34.7520937,Shashank Hardware & General Store,hardware,,
+10928935965,-0.0979875,34.7521788,Nayosa Enterprises,hardware,,
+10929001180,-0.1000659,34.7540821,Kogalo Curtains,curtain,,
+10929001181,-0.1000062,34.7541442,Kogalo electronics,electronics,,
+10929030250,-0.0997324,34.7544796,,bag,,
+10929030251,-0.0998204,34.7543522,Eastleigh Market Centre,yes,,
+10929045351,-0.1002687,34.7539365,Syinix,electronics,,
+10929045353,-0.1001559,34.7537835,,curtain,,
+10929341676,-0.0996786,34.7544294,BAYAN elecrticals,electronics,,
+10929341677,-0.0995173,34.7544415,,clothes,,
+10929341678,-0.0994222,34.7543662,,clothes,,
+10929341679,-0.099391,34.7543361,,clothes,,
+10929341680,-0.1001864,34.7553457,Uholo general stores,hardware,,
+10929386734,-0.0817002,34.728582,Amni Tours,travel_agency,,
+10929386735,-0.0819613,34.7287079,Flagship Travels,travel_agency,,
+10929388942,-0.0999149,34.7599992,Kabala Electronics,electronics,,
+10929388944,-0.0997963,34.7601061,Waasafi Travel & Tours,travel_agency,,
+10929388945,-0.0995626,34.7600459,Highway electronics,electronics,,
+10931608140,-0.079045,34.7842446,Ben Ten Stores,yes,,
+10931608141,-0.078952,34.7843248,Boom Mart,supermarket,,
+10931608142,-0.0804934,34.7845008,,alcohol,,
+10931608143,-0.0805919,34.7845031,,alcohol,,
+10931608144,-0.0799828,34.7850046,,alcohol,,
+10931626861,-0.102373,34.7528601,,clothes,,
+10931626862,-0.1024229,34.7528715,,clothes,,
+10931626863,-0.1024813,34.7528928,,clothes,,
+10931626864,-0.1025426,34.7529085,,clothes,,
+10931626865,-0.1021036,34.7528144,,clothes,,
+10931626866,-0.1021649,34.7528216,,clothes,,
+10931626867,-0.1022105,34.752833,,clothes,,
+10931626868,-0.1022604,34.752833,,clothes,,
+10931626869,-0.1026567,34.7529698,,clothes,,
+10931626870,-0.1027308,34.7529983,,clothes,,
+10931690116,-0.0581104,34.7848877,Sunny Botique,beauty,,
+10931690117,-0.0581451,34.7848082,Famaroma Enterprises,kiosk,,
+10931690118,-0.0612725,34.7798423,Singo Butchery,butcher,,
+10933936608,-0.1038252,34.7535126,,clothes,,
+10933936609,-0.1039695,34.7535739,,clothes,,
+10933936610,-0.1040802,34.7536411,,clothes,,
+10933997335,-0.0837085,34.7750833,Jak hardware &steel,hardware,,
+10933997336,-0.0838499,34.7746309,Kasule Hardware,hardware,,
+10933997337,-0.0838278,34.7747072,Jossy G Traders Shop,kiosk,,
+10933997338,-0.083909,34.7747232,poa household ltd.,houseware,,
+10933997339,-0.0837724,34.7748155,Floorwell creations Ltd.,tiles,,
+10933997342,-0.0834134,34.7749819,Giama solutions clothing,clothes,,
+10933997344,-0.0833781,34.7750547,wema feeds,agrarian,,
+10933997347,-0.0833423,34.7751861,Wise choice Kenya bakeries,bakery,,
+10933997348,-0.0833314,34.7752213,Kosogo wines and spitits,alcohol,,
+10933997352,-0.0832553,34.7752784,G net general supplies,yes,,
+10933997353,-0.083293,34.7753074,New siana Electronics,electronics,,
+10933997354,-0.0832826,34.7753358,Fricada Liquor baze,alcohol,,
+10933997357,-0.0827593,34.7776172,Joroma trading company,motorcycle_repair,,
+10933998079,-0.0816187,34.7796458,Y&M wines and spirits,alcohol,,
+10936324381,-0.084615,34.7731527,Yurop butchery,butcher,,
+10936324382,-0.084662,34.7731092,Kinyila auto tyres,tyres,,
+10936324383,-0.0846798,34.7730862,,hairdresser,,
+10936324384,-0.0846984,34.7730737,,kiosk,,
+10936324385,-0.0846984,34.7730489,,kiosk,,
+10936335484,-0.0800925,34.7842398,,kiosk,,
+10936335485,-0.0801022,34.7841911,,kiosk,,
+10936335486,-0.0801254,34.7841498,,kiosk,,
+10936335487,-0.0800816,34.7842897,,kiosk,,
+10936335493,-0.0802045,34.7834219,lagos laundry,laundry,,
+10936335494,-0.0802288,34.7833825,,clothes,,
+10936335495,-0.0801181,34.7835315,Omiti & Son hardware,hardware,,
+10936347161,-0.0820743,34.7786704,Fourems holdings,kiosk,,
+10936347164,-0.0819088,34.7788439,Grace Shop,yes,,
+10936347165,-0.0818571,34.7788406,,butcher,,
+10936347166,-0.0790444,34.7845388,sawa sawa wines & Spirits,alcohol,,
+10936347167,-0.0791118,34.7844936,Hills mount super butchery,butcher,,
+10936347168,-0.0791553,34.7844838,,hairdresser,,
+10936347170,-0.0792023,34.7844802,mkubwa beauty parlour,beauty,,
+10936347171,-0.0792236,34.7844412,oyoma butchery,butcher,,
+10936347172,-0.079252,34.7844696,touch of class,hairdresser,,
+10936347173,-0.0793168,34.7844421,,agrarian,,
+10936347175,-0.0798908,34.7841103,underground barber shop,hairdresser,,
+10936347176,-0.0800683,34.7844847,Adonai communications,telecommunication,,
+10936347177,-0.0801171,34.7844838,,fabric,,
+10936347178,-0.080149,34.7844847,,clothes,,
+10936347179,-0.0801958,34.7844871,,beauty,,
+10936347180,-0.0802617,34.7844952,,butcher,,
+10936347181,-0.0801064,34.7845388,Amazone Entertainment,video,,
+10936347182,-0.0801659,34.7845353,OJ Movies & Cosmetics,video,,
+10936347183,-0.0800498,34.7845628,Kharissa interior decor,interior_decoration,,
+10936347184,-0.0800343,34.7846086,,hairdresser,,
+10936347185,-0.079985,34.784734,Johns Liquor,alcohol,,
+10936347186,-0.080018,34.7846405,chicken shop,farm,,
+10936347187,-0.0800042,34.7846771,Emmy John's Gas center,gas,,
+10936347188,-0.0799266,34.7842408,Geno pork & Chicken,butcher,,
+10936384845,-0.0799635,34.7847827,,clothes,,
+10936384847,-0.0799271,34.7848743,mzungu pretzels,houseware,,
+10936384848,-0.0799089,34.7849246,Nancyto wines & Spirits,alcohol,,
+10936384849,-0.0798884,34.7849555,Dee's collection,houseware,,
+10936384850,-0.0798697,34.7849925,Tina's beauty and Fashion,fashion_accessories,,
+10936384851,-0.0800243,34.7847153,hope fashion and beauty,fashion_accessories,,
+10936497880,-0.0742888,34.7815067,ziwani butchery,butcher,,
+10936497881,-0.0745244,34.7818231,,greengrocer,,
+10936497882,-0.0745712,34.7818599,,greengrocer,,
+10936507299,-0.0745583,34.7816688,,butcher,,
+10936507300,-0.0745055,34.7816239,,greengrocer,,
+10936507302,-0.0744043,34.7817318,emirates shop,yes,,
+10936507303,-0.0744298,34.7817495,,yes,,
+10936507931,-0.0746514,34.7820002,cut n style,hairdresser,,
+10936507933,-0.0746393,34.782076,Buzz cuts,hairdresser,,
+10936507934,-0.0747645,34.7820571,Denji Liquors,alcohol,,
+10936507936,-0.0747693,34.782033,classic electricals and supplies,electrical,,
+10936507937,-0.0746668,34.7819434,,kiosk,,
+10936507938,-0.074657,34.781923,,kiosk,,
+10936507939,-0.0746685,34.7819043,,kiosk,,
+10936507940,-0.0746792,34.7817775,,kiosk,,
+10936507941,-0.0746349,34.7817323,,butcher,,
+10936511282,-0.074179,34.781443,,yes,,
+10936643767,-0.104621,34.7544042,,mobile_phone,,
+10936643768,-0.1045469,34.7544935,,mobile_phone,,
+10936643770,-0.1045883,34.754535,,mobile_phone,,
+10936643771,-0.1046697,34.7544478,,computer,,
+10936643772,-0.1046549,34.7545961,,computer,,
+10936645858,-0.1060772,34.7534689,optica,optician,,
+10936645859,-0.1062294,34.7529678,Bata,shoes,,
+10936645863,-0.1061528,34.753084,The Standard Group,newsagent,,
+10936645864,-0.1071993,34.7520004,Kenya Airways,ticket,,
+10936645865,-0.1070889,34.7521329,Jambojet,ticket,,
+10937101483,-0.0811984,34.7805345,plascon,paint,,
+10937101484,-0.0812654,34.7804347,,fashion_accessories,,
+10937101485,-0.0812212,34.7806229,,butcher,,
+10937101491,-0.081576,34.780654,Tigo arts and fashion,art,,
+10937108652,-0.1038943,34.7576567,central butchery,butcher,,
+10937108653,-0.1038245,34.7577458,paclyosh Tatoos,tattoo,,
+10937110278,-0.1038144,34.7576694,The LJ Baby collections,baby_goods,,
+10937110279,-0.1037326,34.7577462,vana baby world,baby_goods,,
+10937110280,-0.1036697,34.7578227,best toto shop,baby_goods,,
+10937110281,-0.1037613,34.7578223,Julie's collections,fashion_accessories,,
+10937110282,-0.103563,34.7579487,Movies & gaming zone,video_games,,
+10937110284,-0.1036912,34.7579028,kids avenue,baby_goods,,
+10937137219,-0.1036096,34.7578736,watoto wetu world,baby_goods,,
+10937137220,-0.1035646,34.7580245,Dots kids store,baby_goods,,
+10937137221,-0.0802225,34.7845398,Nana's kitchen,houseware,,
+10940422989,-0.1001313,34.7542516,Boqol Electronics,electronics,,
+10940422990,-0.1001586,34.7542081,,bag,,
+10940422991,-0.1000643,34.7543213,,electronics,,
+10940422992,-0.1000115,34.7543722,,electronics,,
+10940453073,-0.0999309,34.7544751,,clothes,,
+10940453074,-0.0998688,34.754532,,clothes,,
+10940453075,-0.0997777,34.7547785,Max shoppers electronics,electronics,,
+10940498841,-0.0978161,34.7520106,Trishla wholesalers,wholesale,,
+10940498842,-0.0976581,34.7521602,Shajanand Ceramics & Hardware,hardware,,
+10940498843,-0.0978369,34.7523514,Jain Trading Ltd.,wholesale,,
+10940498844,-0.096932,34.7533833,Kendeep agencies,wholesale,,
+10940498845,-0.0967616,34.7536012,Twyford Africa,tiles,,
+10940498846,-0.0967801,34.7532524,Victoria Bakery,bakery,,
+10940506882,-0.0966337,34.7533963,Aguko Machinery,hardware,,
+10941845311,-0.0968336,34.7535167,Tegno autoparts,car_parts,,
+10941845312,-0.0965835,34.7534653,Western highway tyres,tyres,,
+10941845313,-0.0970066,34.7532958,INdayare enterprises,hardware,,
+10941845315,-0.0969612,34.7530367,Kawaka electricals,electrical,,
+10941845322,-0.0970837,34.7531899,kuki general merchants,hardware,,
+10941845323,-0.0971231,34.753149,Musyoki Tyre Centre,tyres,,
+10941873511,-0.097034,34.7529473,tile city ltd,tiles,,
+10941873512,-0.0972983,34.7536194,Foam matresses ltd,bed,,
+10941873513,-0.0991565,34.7520105,Amito stores,fabric,,
+10941873514,-0.0989598,34.7518651,Amito stores,fabric,,
+10941873515,-0.0992364,34.7518822,Nyanza woolen shop,fabric,,
+10941873516,-0.0990339,34.7517624,Midrock farms ltd,agrarian,,
+10943756730,-0.1074434,34.7694985,CTM Kenya,hardware,,
+10943819781,-0.0994984,34.750917,Afro Drip,agrarian,,
+10943819782,-0.0996615,34.7509866,Mitha electricals,electrical,,
+10943867672,-0.0803905,34.7844901,Vilet studio,photo,,
+10943873312,-0.0989657,34.752177,Monasa Nets,fishing,,
+10943873313,-0.0988973,34.7522388,Amalo company ltd.,wholesale,,
+10943873314,-0.0987938,34.7520535,Recho Garments,clothes,,
+10943873315,-0.0988138,34.7523406,Nildeep ltd.,hardware,,
+10945826756,-0.0995711,34.7544874,nasir fashion shop,fashion_accessories,,
+10945826757,-0.0996275,34.7543953,jeha beauty & fashion shop,fashion_accessories,,
+10945826758,-0.0995918,34.7543527,mubarak electronics shop,electronics,,
+10945826761,-0.0994625,34.7543994,bayan,electronics,,
+10945826763,-0.0993586,34.7541827,,bag,,
+10945826764,-0.0993547,34.7543097,,bag,,
+10945826766,-0.0993241,34.7542821,izoo takaba,hifi,,
+10945826767,-0.0992996,34.7542622,,bag,,
+10945826768,-0.09928,34.754245,,hifi,,
+10945826771,-0.0993277,34.7541819,,hifi,,
+10945826772,-0.0993249,34.754145,,electronics,,
+10945826775,-0.0992533,34.7542245,,clothes,,
+10945826776,-0.09923,34.7542013,,electronics,,
+10945842838,-0.099268,34.7541271,,bag,,
+10945842839,-0.0992997,34.7541207,,bag,,
+10945842840,-0.0992924,34.7541465,,electronics,,
+10945842841,-0.0993081,34.7541613,,hifi,,
+10945842843,-0.0993706,34.7542194,,mobile_phone,,
+10945842844,-0.099394,34.7542386,,clothes,,
+10945842845,-0.0994159,34.7542544,Pretty U fashion,fashion_accessories,,
+10945842846,-0.0994409,34.7542788,Moyale electricals,electronics,,
+10945842847,-0.0994733,34.7543075,kosaze electricals,electronics,,
+10961362412,-0.0975031,34.7534775,Kavirondo fishnets & hardware,fishing,,
+10976832791,-0.0996006,34.7506769,Blackberry,clothes,,
+10976864900,-0.1004806,34.7510454,powerlite Electricals,electronics,,
+10978530359,-0.1035928,34.75249,,computer,,
+10978530361,-0.0981704,34.7624123,City Walk,shoes,,
+10978530362,-0.0980125,34.7626221,Mac Garage,computer,,
+10995398989,-0.0815523,34.7807274,,houseware,,
+11013777517,-0.0883213,34.7655379,Auto Xpress,car_repair,,
+11013777518,-0.0884581,34.7653881,Jamboleo Body shop,car_repair,,
+11013777524,-0.0891802,34.7652617,Tata Motors,car,,
+11013777534,-0.097378,34.7556887,,car,,
+11013777535,-0.1041368,34.7550453,RANA auto,car,,
+11016540434,-0.1074378,34.7697178,Aquapet,pet,,
+11016540436,-0.1074211,34.7701386,optex,optician,,
+11016540437,-0.1073944,34.7703923,Dr Matress,bed,,
+11016540438,-0.1073777,34.7706494,Dr M Furniture,furniture,,
+11016540440,-0.1070872,34.7695175,Titan optics,optician,,
+11016540441,-0.1070431,34.7697873,Zoro's cool drinking water,water,,
+11016540442,-0.1070304,34.7700684,Mac & More solutions,computer,,
+11016540446,-0.1079861,34.769631,Beyond Fruits,farm,,
+11016540447,-0.1080622,34.769818,khushi motors,car,,
+11020090781,-0.1078899,34.7697528,Continental Tyres,tyres,,
+11030023226,-0.0954613,34.7686557,Roadside General store,general,,
+11030023227,-0.0954703,34.7685668,Kim's Poultry,agrarian,,
+11030023228,-0.0954735,34.7684922,Jabito Garments & School Supplies,stationery,,
+11030023270,-0.1050837,34.7530266,Bata,shoes,,
+11030023274,-0.1071457,34.7520643,safarilink,ticket,,
+11030023275,-0.1069669,34.7521328,,shoes,,
+11030023276,-0.1070988,34.7518718,Beyond Fruits,greengrocer,,
+11030023277,-0.1071437,34.7519333,Samsung,electronics,,
+11030023278,-0.107084,34.7520181,Oppo,mobile_phone,,
+11030023285,-0.0981795,34.762764,mika,electronics,,
+11034057662,-0.090886,34.7683214,Unitas SACCO,money_lender,,
+11034143944,-0.1006279,34.7531505,marhaba,convenience,,
+11035432652,-0.0833787,34.7739949,samuel odinga coffins & furniture,furniture,,
+11035432653,-0.0833485,34.7738653,Samorco emporium & logistics,yes,,
+11035432654,-0.0834251,34.7741285,Umuya shop,kiosk,,
+11035432655,-0.0833496,34.7741744,kosovo base hair cuts,hairdresser,,
+11035432656,-0.083287,34.7742184,Rinas Milk shop,dairy,,
+11035432658,-0.0830972,34.7742902,sigma feeds,agrarian,,
+11035432659,-0.0830221,34.7743259,Blue seal drycleaners,dry_cleaning,,
+11035432661,-0.0829081,34.7744164,favor botique,fashion_accessories,,
+11035432662,-0.0828433,34.7744072,Munyao poultry enterprises,agrarian,,
+11035432663,-0.0827868,34.7744329,KIM's poultry enterprises,agrarian,,
+11035432664,-0.0827473,34.7744999,Pelikan Paints Centre,paint,,
+11035432667,-0.082968,34.7748071,Denvic bookshop,books,,
+11035432669,-0.0822682,34.7750029,Pramukh wholesale & retail,wholesale,,
+11035432670,-0.0823665,34.7749758,Nildeep ltd.,fabric,,
+11035432671,-0.0823793,34.7750684,winam decor & hardware,interior_decoration,,
+11035432672,-0.0820501,34.7746893,Janam motorbike spares,motorcycle_repair,,
+11036196418,-0.0887765,34.7677042,Toreno Motors,car_repair,,
+11041880762,-0.0758722,34.7807062,Onion center,greengrocer,,
+11041880763,-0.075946,34.7805908,Manchi water,water,,
+11044596295,-0.081228,34.7845126,danny fashions,fashion_accessories,,
+11044596296,-0.0811797,34.7845126,Divineland milk & honey,dairy,,
+11044596297,-0.0811294,34.7845126,Lee Femmi perfume fills,perfumery,,
+11044596298,-0.0810852,34.7845166,mum jees fashion collection,fashion_accessories,,
+11044596299,-0.0810463,34.7845113,Double Jay electrical and mini hardware,hardware,,
+11044596300,-0.0809866,34.7845267,Ondisore farmers choice depot,kiosk,,
+11044596301,-0.0808029,34.7843295,zamani cake suppliers,bakery,,
+11044596303,-0.0807673,34.7844898,Odhis Jerseys,clothes,,
+11044596304,-0.0808827,34.7845029,Joreddy Wines & spirits,wine,,
+11044610205,-0.0808277,34.7845032,samsity nail botique,beauty,,
+11044610206,-0.0807211,34.7844952,Lakeside Halal butchery,butcher,,
+11044610207,-0.0795234,34.7840694,Underground barber shop,hairdresser,,
+11044670410,-0.0871959,34.7685394,sparco motors garage,car_repair,,
+11055440278,-0.1071832,34.769276,Sinachi travel & tours,travel_agency,,
+11082995764,-0.075023,34.7814257,,kitchen,,
+11082995765,-0.0750328,34.7814106,,shoes,,
+11083578781,-0.105106,34.7544296,whiterose drycleaners,laundry,,
+11088822295,-0.097737,34.7535512,kibuye wholesalers,wholesale,,
+11088822296,-0.097678,34.7536665,Cycle and Electronic Centre,bicycle,,
+11088822297,-0.0972113,34.7537631,Galaiya stores Ltd,wholesale,,
+11094245646,-0.0782233,34.7852488,Kijani purified,water,,
+11094246712,-0.0757603,34.7805644,Betty's classic mitumba,clothes,,
+11094246713,-0.0757865,34.7805121,maziwa dairy,dairy,,
+11094246714,-0.0758676,34.7801527,Farm fresh,dairy,,
+11094246716,-0.075875,34.7800548,,butcher,,
+11094246717,-0.075877,34.7800139,super collection perfume refil,perfumery,,
+11094246718,-0.0758824,34.7795136,,hairdresser,,
+11094246719,-0.0758864,34.7794546,,beauty,,
+11094246721,-0.0759038,34.7789624,pavan paints,paint,,
+11094246722,-0.0759011,34.7789128,,electronics,,
+11094246723,-0.0758998,34.7788699,,electronics,,
+11094246724,-0.0759038,34.7787733,,clothes,,
+11094246725,-0.0759078,34.7785614,,gas,,
+11094250478,-0.0758966,34.7806524,westland veve shop,kiosk,,
+11159362649,-0.075887,34.7793929,,boutique,,
+11286301270,-0.1045231,34.7521472,Viu Travel,travel_agency,,
+11396035095,-0.1067894,34.7701018,silentnight,bed,,
+11413254433,-0.098606,34.7625446,Lintons,beauty,,
+11413254434,-0.0984447,34.7624288,Textbook Center,books,,
+11459528275,-0.0984451,34.7627136,Vivo,mobile_phone,,
+11459528276,-0.1064729,34.7704491,Carpet City,carpet,,
+12876890560,-0.1462188,34.8051518,Builders Superstore,doityourself,,Mo-Fr 09:00-17:00
+12894393845,-0.1014786,34.7522959,umoja,shoes,,
+12894393846,-0.0984638,34.7628343,umoja,shoes,,
+12898676206,-0.1043271,34.7522637,umoja,shoes,,
+13647314920,-0.0811364,34.7746317,,second_hand,,
+13658597825,-0.0828437,34.7748432,city mart electricals kondele,electrical,,
+13711811503,-0.0743815,34.6950314,Montezumaonalisa funeral home,funeral_directors,,
+13714210033,-0.1390865,34.7975243,pepsi,wholesale,,
+13714210034,-0.1393333,34.7976026,Jambo mabati,hardware,,
+13714210035,-0.1331397,34.7949545,Isuzu service center,car_repair,,
+13714210038,-0.1388046,34.7974169,gypsum ceiling supplies,tiles,,
+13714210045,-0.1532883,34.8288615,Rabuor gen mart,wholesale,,
+13714210047,-0.1223524,34.7908722,Jumbo steel mills,hardware,,
+13714403360,-0.0758255,34.7995764,Buffalo bicycles,bicycle,,
+13733945080,-0.1065221,34.7700428,China square,department_store,,
+13749616722,-0.0954578,34.7676872,tuffoam limited factory outlet,wholesale,,
+13749654037,-0.0920758,34.7614069,taji,water,shop,
+13749654038,-0.0977095,34.7554512,jaaria mini mart,supermarket,,
+13749654039,-0.0920593,34.7615096,keki Na taji,bakery,shop,
