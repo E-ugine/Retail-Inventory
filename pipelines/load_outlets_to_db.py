@@ -7,7 +7,7 @@ import os
 
 load_dotenv()
 
-DB_URL = os.getenv("DATABASE_URL", "postgresql://postgres@localhost:5432/retail_intelligence")
+DB_URL = os.getenv("DATABASE_URL")
 INPUT_FILE = Path("data/raw/kisumu_osm_outlets.csv")
 
 def get_engine():
@@ -68,7 +68,6 @@ def load_outlets(engine):
 def verify_load(engine):
     with engine.connect() as conn:
         
-        # Total count
         result = conn.execute(text("SELECT COUNT(*) FROM outlets;"))
         count = result.scalar()
         print(f"\n--- Verification ---")
