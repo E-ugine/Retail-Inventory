@@ -1,0 +1,257 @@
+outlet_osm_id,outlet_name,outlet_type,suburb,outlet_lat,outlet_lon,weeks_active,total_revenue,skus_purchased,visit_frequency,service_level
+3291255926,Kiosk,convenience,Nyalenda B,-0.1253104,34.7535577,21,502927.18,24,0.808,Well served
+3291258371,Kiosk,convenience,Wadhare,-0.125057,34.7536201,23,471078.50999999995,24,0.885,Well served
+3291258372,Kiosk,convenience,Wadhare,-0.1239009,34.7533096,22,500172.7199999998,24,0.846,Well served
+3291258373,Kiosk,convenience,Wadhare,-0.1227416,34.7529361,23,496340.3000000001,24,0.885,Well served
+3292350021,Unknown,butcher,Southern sublocation,-0.1033614,34.7557818,23,230886.05,24,0.885,Well served
+3834757804,Shivling,supermarket,Southern sublocation,-0.1048388,34.7529084,21,1318654.6299999992,24,0.808,Well served
+4620811493,street shop,convenience,Milimani,-0.1183397,34.7464164,23,313060.14999999997,24,0.885,Well served
+6851440464,QuickMart,supermarket,Southern sublocation,-0.1024953,34.7523456,20,1718982.4200000002,24,0.769,Well served
+6966453737,Obunga Market,unclassified,Industrial Area,-0.0816245,34.76504,21,233641.19,24,0.808,Well served
+6969176795,Nyamasaria,unclassified,Kasule sublocation,-0.1167143,34.7871522,23,144476.3200000001,24,0.885,Well served
+7181814601,Naivas Food Market,supermarket,Northern sublocation,-0.1067626,34.7704819,22,1008445.4599999995,24,0.846,Well served
+7227559253,QuickMart,supermarket,Southern sublocation,-0.1172055,34.7591898,23,1264124.7399999995,24,0.885,Well served
+7229869113,Choppies,supermarket,Kasule sublocation,-0.116943,34.7875621,20,933828.5299999998,24,0.769,Well served
+7229869128,Quickmart- Kondele,supermarket,Manyatta A,-0.0835541,34.7754727,21,2431222.1600000006,24,0.808,Well served
+7229869129,Shivling,supermarket,Migosi,-0.0819533,34.7751694,23,2496690.2,24,0.885,Well served
+7230512297,Gambogi,unclassified,,-0.0016911,34.7397444,22,126133.24999999993,24,0.846,Well served
+8814265702,Mama Papa's Shop,general,Nyalenda A,-0.1191967,34.76467,22,419010.2699999999,24,0.846,Well served
+8814390051,Honda Nafuu General Store,general,Manyatta A,-0.0975267,34.7786233,20,411255.38000000006,24,0.769,Well served
+8814394881,Mama Sally Shop,kiosk,Manyatta A,-0.0977217,34.7781317,21,166858.54999999993,24,0.808,Well served
+8816862517,Dunga Market,unclassified,,-0.1442633,34.73629,22,114711.60999999999,24,0.846,Well served
+8816875717,Kilo,unclassified,Wadhare,-0.120895,34.7550017,21,232660.7700000001,24,0.808,Well served
+8816877717,Simba Market,unclassified,Milimani,-0.1191189,34.7528467,20,168490.41999999998,24,0.769,Well served
+8816877719,Kasawino,convenience,Manyatta B,-0.108175,34.7837583,23,337270.4999999999,24,0.885,Well served
+8816890718,Corona market - kowino,unclassified,Nyalenda A,-0.114675,34.76901,22,160165.78999999998,24,0.846,Well served
+8816908517,Kasawino Market,unclassified,Manyatta B,-0.1084567,34.7830067,23,135136.07999999993,24,0.885,Well served
+8816914817,Gesoko,unclassified,Manyatta B,-0.1028217,34.7770083,23,135530.78,24,0.885,Well served
+8816921346,Usodho J.G Shop,kiosk,Manyatta A,-0.08866,34.7770067,20,187999.48999999987,24,0.769,Well served
+8816941117,Corona Market 2,unclassified,Manyatta A,-0.09202,34.77597,23,161441.66999999995,24,0.885,Well served
+8816945517,Corona Market,unclassified,Manyatta A,-0.0881583,34.777845,21,248002.52999999997,24,0.808,Well served
+8816948717,Kona Mbuta Market,unclassified,Manyatta A,-0.0881117,34.7806583,23,163837.51999999993,24,0.885,Well served
+8816952917,Kaego,unclassified,Manyatta A,-0.0875748,34.7829903,22,155579.4499999999,24,0.846,Well served
+8816962317,Kondele Market,unclassified,Manyatta A,-0.084175,34.7745917,22,367971.63999999984,24,0.846,Well served
+8816972117,Kaego Market,unclassified,Manyatta A,-0.0816297,34.7845018,23,291130.5799999997,24,0.885,Well served
+8816972118,Lolwe Junction Market,unclassified,Lolwe,-0.0743766,34.781689,22,301775.3600000002,24,0.846,Well served
+8816975418,Nyawita market,unclassified,Nyawita sublocation,-0.0805903,34.7716722,21,354691.8300000003,24,0.808,Well served
+8816984317,Ayanga Market Nyawita,unclassified,Nyawita sublocation,-0.0815979,34.7714588,21,332064.02999999974,24,0.808,Well served
+8816988617,Obunga Fish Market,unclassified,Industrial Area,-0.0810567,34.7604283,23,181990.41000000006,24,0.885,Well served
+8816995517,Kombedu Market,unclassified,Bandari,-0.0803143,34.7465815,20,138362.66999999998,24,0.769,Well served
+8816996417,Kombedu,unclassified,Bandari,-0.0797453,34.7464408,22,132853.42,24,0.846,Well served
+8817013517,Bandani Market,unclassified,Bandari sublocation,-0.0793272,34.7413743,22,132447.72999999995,24,0.846,Well served
+8817126017,Riat Market,unclassified,Kogony',-0.0762867,34.7298283,19,139381.02999999994,24,0.731,Well served
+8817126018,Riat road side market,farm,Kogony sublocation,-0.0765933,34.728975,18,139486.65000000002,24,0.692,Moderately served
+8817177117,Riat railway market,unclassified,Bandari sublocation,-0.0769175,34.729264,21,139398.99,24,0.808,Well served
+8817263717,Bandani market,unclassified,Kogony' B,-0.0755503,34.7089485,21,132968.80000000002,24,0.808,Well served
+8817300117,Kotetni market,unclassified,Kogony' B,-0.08073,34.7078633,23,144976.63999999993,24,0.885,Well served
+8817517530,Handshake Wines and Spirits,alcohol,Manyatta A,-0.0833061,34.7753706,23,906643.1599999996,24,0.885,Well served
+8817685608,Unknown,kiosk,Manyatta A,-0.0835894,34.7751816,21,323285.77,24,0.808,Well served
+8817734979,Aswanson Super Duka,wholesale,Manyatta A,-0.0841454,34.7746317,21,2398873.000000001,24,0.808,Well served
+8820769660,Josato Butchery,butcher,Manyatta A,-0.0850551,34.7748571,22,354205.9000000001,24,0.846,Well served
+8820816082,Nyawita Dairy Shop,dairy,Nyawita sublocation,-0.0815694,34.7712899,22,341133.74999999994,24,0.846,Well served
+8820816309,Denis Shop,kiosk,Nyawita sublocation,-0.0814791,34.7712572,22,327365.5,24,0.846,Well served
+8820820649,Signet Shop,kiosk,Nyawita sublocation,-0.0809901,34.7713845,23,365545.1799999999,24,0.885,Well served
+8820825354,Mama Juliet Shop,kiosk,Nyawita sublocation,-0.0811011,34.7714351,21,335695.6599999998,24,0.808,Well served
+8820855657,Kananga Everfresh Butchery,butcher,Nyawita sublocation,-0.0805837,34.7717521,21,342698.7799999999,24,0.808,Well served
+8820886815,NEEMA Dairy Shop,dairy,Nyawita sublocation,-0.0800864,34.7667771,21,277242.64000000013,24,0.808,Well served
+8820899854,Butchery,butcher,Nyawita sublocation,-0.0799517,34.7670517,23,308182.6699999999,24,0.885,Well served
+8820906538,Imani Meat Butchery,butcher,Kanyakwar sublocation,-0.0803643,34.76621,21,251650.12000000008,24,0.808,Well served
+8823995282,Juba General shop,kiosk,Nyawita sublocation,-0.0808214,34.7664914,23,283942.9300000001,24,0.885,Well served
+8824025979,Three Star Butchery,butcher,Nyawita sublocation,-0.0815633,34.7652117,23,252895.97999999986,24,0.885,Well served
+8824028730,Edu Shop,kiosk,Nyawita sublocation,-0.0812517,34.7654833,22,223470.89000000007,24,0.846,Well served
+8824029560,Holos Wines and Spitits,alcohol,Nyawita sublocation,-0.0809141,34.7663913,19,671098.2000000001,24,0.731,Well served
+8824050876,Riverside Shop,kiosk,Industrial Area,-0.081095,34.7645133,20,243891.9100000001,24,0.769,Well served
+8824052507,Baba Nelfa Shop,kiosk,Industrial Area,-0.0812533,34.7648867,22,234106.87999999998,24,0.846,Well served
+8824052508,Mama Manu Shop,kiosk,Industrial Area,-0.0809,34.7643833,20,238499.56000000006,24,0.769,Well served
+8824061915,Joy Butchery,butcher,Industrial Area,-0.0815383,34.7650583,21,231932.20999999996,24,0.808,Well served
+8824066818,Kuku Shop,butcher,Industrial Area,-0.0812117,34.7648917,22,224473.3900000001,24,0.846,Well served
+8824073827,Grocery Stall,greengrocer,Industrial Area,-0.080635,34.764155,22,231872.76999999993,24,0.846,Well served
+8824095656,Kajaloka Shop,kiosk,Kanyakwar,-0.079965,34.76328,22,217470.12999999986,24,0.846,Well served
+8824115284,Mercy Cereals,greengrocer,Industrial Area,-0.0799517,34.764215,22,235183.98,24,0.846,Well served
+8824117358,Jaseme Shop,kiosk,Kanyakwar sublocation,-0.0800917,34.7635417,23,236779.34000000014,24,0.885,Well served
+8987955679,Manyatta Market,unclassified,Manyatta A,-0.0975554,34.7785944,23,164420.65999999992,24,0.885,Well served
+9126367969,Unknown,greengrocer,Southern sublocation,-0.1043701,34.7519231,23,201155.66999999998,24,0.885,Well served
+9126374353,Drink and smile,water,Southern sublocation,-0.1042736,34.7518879,23,533460.1900000002,24,0.885,Well served
+9443804417,Queen Soap,chemist,Nyalenda A,-0.1110779,34.7693277,23,412174.4,24,0.885,Well served
+9443804425,Mama Brax Shop,chemist,Korando A sublocation,-0.0659193,34.7047465,21,330059.8599999999,24,0.808,Well served
+9443804444,Sharon,chemist,Brilliant,-0.1009514,34.7690236,22,367056.3000000001,24,0.846,Well served
+9443804446,Cynthia Atieno,chemist,Migosi,-0.0751447,34.7813578,21,889726.8600000005,24,0.808,Well served
+9443804462,Nelly's House,chemist,Wadhare,-0.1227859,34.753216,23,504907.5600000002,24,0.885,Well served
+9443804470,Vincent's Shop,chemist,k.b.c.,-0.1183712,34.7602091,23,462526.0000000001,24,0.885,Well served
+9443804487,Andrew Ater,chemist,Kasule,-0.082992,34.8002358,23,349512.45999999985,24,0.885,Well served
+9443804492,Dennis,chemist,Lolwe,-0.0713507,34.781385,21,645689.8899999999,24,0.808,Well served
+9443804498,Suprima Industries,chemist,Bandari sublocation,-0.0954574,34.7527257,21,659087.5699999996,24,0.808,Well served
+9443804517,Mironga,chemist,Lolwe,-0.0713655,34.781385,23,669696.2799999998,24,0.885,Well served
+9443804519,Yvonne,chemist,Nyalunya sublocation,-0.0704857,34.8113723,22,346065.4099999999,24,0.846,Well served
+9443804521,Carruthers East Africa,chemist,West Kajulu location,-0.0545839,34.7920343,23,358096.3400000001,24,0.885,Well served
+9443804537,Lord General Shop,chemist,Manyatta A,-0.0976701,34.777944,17,341517.51999999996,24,0.654,Moderately served
+9443804549,Elias,chemist,Wadhare,-0.1186567,34.7599544,22,456555.24,24,0.846,Well served
+9446338304,Naomi Achieng,chemist,Kasule,-0.083015,34.8002048,23,338345.07999999967,24,0.885,Well served
+9446395025,Carter's Shaop,chemist,Migosi,-0.0772688,34.7779309,21,747186.4800000004,24,0.808,Well served
+9446395026,Otom Investments,chemist,Nyawita sublocation,-0.0828786,34.770735,23,862766.2499999999,24,0.885,Well served
+9446395031,Deborah Ouma Odindo Shop,chemist,Kogony' B,-0.0755421,34.7086556,22,372779.8400000002,24,0.846,Well served
+9446395094,Olenyo Shop,chemist,Manyatta A,-0.0907746,34.78157,21,395836.3400000003,24,0.808,Well served
+9446395095,KCB Mpesa Shop,chemist,Kogony' B,-0.0751677,34.7080056,23,368109.7,24,0.885,Well served
+9446395117,Babby,chemist,Brilliant,-0.0990553,34.7697439,23,508302.82999999967,24,0.885,Well served
+9446395130,No Name Yet,chemist,Nyawita sublocation,-0.0827604,34.7708349,23,964161.5600000002,24,0.885,Well served
+9446395135,Her House,chemist,Nanga,-0.1285161,34.7471476,23,364057.92999999993,24,0.885,Well served
+9462604704,Eric Welding Shop,chemist,Gonda,-0.0895694,34.7760295,23,438554.07999999996,24,0.885,Well served
+9462619420,Cynthia's Shop,chemist,Polyview,-0.1007601,34.7688561,22,379761.6399999999,24,0.846,Well served
+9462619432,Princess Marcos,chemist,Lolwe,-0.0712652,34.7812586,23,616176.8200000002,24,0.885,Well served
+9462619443,Gulflab Chemical Co.Ltd,chemist,Bandari sublocation,-0.1009976,34.7507304,23,713845.33,24,0.885,Well served
+9462619461,Bb,chemist,Manyatta A,-0.0952496,34.7671143,23,472310.62999999995,24,0.885,Well served
+9462619464,Kona Shop,chemist,Northern sublocation,-0.1010382,34.7679492,21,369862.8300000002,24,0.808,Well served
+9462619487,David,chemist,Manyatta A,-0.0829795,34.7779881,23,811574.54,24,0.885,Well served
+9462619492,Kibos Sugar,chemist,Chiga sublocation,-0.0622435,34.8159054,22,324245.70999999996,24,0.846,Well served
+9462619523,Safe Water And Aids Project,chemist,Southern sublocation,-0.1105808,34.761828,18,364564.26999999996,24,0.692,Moderately served
+9462619528,Kibos Sugar,chemist,Nyalunya sublocation,-0.0711163,34.8093784,22,349635.8100000002,24,0.846,Well served
+9462619554,Beatrice Enterprises Limited,chemist,West Kajulu location,-0.0598471,34.779653,23,348063.0799999999,24,0.885,Well served
+9462682162,Equitor Bottlers,chemist,Bandari sublocation,-0.0862831,34.7412319,22,326892.12999999983,24,0.846,Well served
+9462682188,Joel Enterprise,chemist,Milimani,-0.1205949,34.7545309,23,517601.0299999998,24,0.885,Well served
+9462682201,Flozy Detergent,chemist,Southern sublocation,-0.1169505,34.759302,21,475680.23000000004,24,0.808,Well served
+9462682918,Industrial Detergent,chemist,Northern sublocation,-0.1009915,34.7612167,22,368663.22000000003,24,0.846,Well served
+9462682926,Judy's Shop,chemist,Southern sublocation,-0.1130299,34.765803,23,421624.5200000002,24,0.885,Well served
+9462682944,Dorothy Amayamu,chemist,Manyatta A,-0.0830757,34.7787198,22,733744.4600000002,24,0.846,Well served
+9462682963,Maurice Cleaners,chemist,Nyawita sublocation,-0.0830025,34.7706262,22,929994.3900000004,24,0.846,Well served
+9462682998,Linet Oliech,chemist,West Kajulu location,-0.05738,34.7826752,21,393811.21,24,0.808,Well served
+9462683006,Rose Bella,chemist,West Kajulu location,-0.0578029,34.7852297,22,368168.91999999987,24,0.846,Well served
+9465883861,Lohman Chemicals,chemist,Migosi,-0.0823498,34.7756884,21,829677.8199999995,24,0.808,Well served
+9465883869,House,chemist,Nanga,-0.1296197,34.7456371,23,355514.07,24,0.885,Well served
+9465883875,Goreti Shop,chemist,Wadhare,-0.124715,34.7530067,21,496386.17000000004,24,0.808,Well served
+9465883900,Cyneth Home Wash,chemist,Migosi,-0.0766375,34.7775038,23,675777.3699999998,24,0.885,Well served
+9465883901,Winfrida Ochieng,chemist,Manyatta A,-0.0829266,34.7785549,22,768061.5,24,0.846,Well served
+9465883904,Beatrice,chemist,Manyatta A,-0.0826087,34.7797533,23,907615.8100000003,24,0.885,Well served
+9465905636,Home Based,chemist,Manyatta A,-0.0949876,34.7801283,23,471374.2099999996,24,0.885,Well served
+9465905637,Linet Atieno Omollo,chemist,Kasule,-0.0830158,34.8002191,22,363443.2599999999,24,0.846,Well served
+9465905661,Dorcass,chemist,Manyatta B,-0.0967368,34.7810021,23,426918.7600000001,24,0.885,Well served
+9465905761,Ziki,chemist,Nyawita sublocation,-0.0814662,34.7653854,22,610675.06,24,0.846,Well served
+9465905764,Aqua Foss,chemist,Nyalenda B,-0.12578,34.75385,22,437124.57,24,0.846,Well served
+9465905769,Fifi Detergents,chemist,Milimani,-0.1176661,34.7592865,22,472066.8099999998,24,0.846,Well served
+9467664683,Cadra,chemist,Manyatta A,-0.0814732,34.7816278,23,823778.1599999996,24,0.885,Well served
+9467664702,Dee Biz,chemist,Milimani,-0.120614,34.754366,20,512581.22000000003,24,0.769,Well served
+9467698826,Moniq,chemist,Milimani,-0.1205534,34.7543576,23,549310.1900000001,24,0.885,Well served
+9467698836,House,chemist,Nyangienda,-0.1324017,34.743435,21,349929.61000000004,24,0.808,Well served
+9467698840,Real Fasion,chemist,Northern sublocation,-0.095655,34.7673314,23,506358.16999999987,24,0.885,Well served
+9467698842,Lilian Oyugi,chemist,Manyatta A,-0.0952358,34.7669469,23,529225.6900000005,24,0.885,Well served
+9467698844,Brook,chemist,Brilliant,-0.0990553,34.7697439,23,511168.4799999998,24,0.885,Well served
+9467698854,Agustin Shop,chemist,Northern sublocation,-0.0956436,34.7673327,23,522832.2500000001,24,0.885,Well served
+9467698861,Pheny,chemist,Wadhare,-0.1202091,34.761459,23,437372.45,24,0.885,Well served
+9467698871,Eunice,chemist,Nyalenda A,-0.1171852,34.7622201,21,487555.81999999995,24,0.808,Well served
+9467698872,Shayla,chemist,Northern sublocation,-0.0957017,34.7671989,22,502136.69999999984,24,0.846,Well served
+9467698906,James,chemist,Nyawita sublocation,-0.0786617,34.7691515,20,703269.7399999999,24,0.769,Well served
+9467698918,Mama Gloria Shop,chemist,Nyamasaria,-0.1161411,34.786713,23,357703.6600000002,24,0.885,Well served
+9467698921,Mama Jay,chemist,Wadhare,-0.1189273,34.7598649,21,477217.91999999987,24,0.808,Well served
+9467698936,Filida Quick Access,chemist,Milimani,-0.1230309,34.7522629,22,531063.6499999999,24,0.846,Well served
+9467698939,Stacy,chemist,Manyatta B,-0.0967368,34.7810021,21,439298.75,24,0.808,Well served
+9467698955,Jesca Shop,chemist,Southern sublocation,-0.1130299,34.765803,21,412420.1099999999,24,0.808,Well served
+9467698969,Joseph,chemist,Manyatta B,-0.0992005,34.7804817,23,430091.5600000001,24,0.885,Well served
+9467698984,Jannet Shop,chemist,Kasule sublocation,-0.0779769,34.7920643,22,341756.0199999999,24,0.846,Well served
+9467698989,Flevicks Complex Shop,chemist,West Kajulu location,-0.0607037,34.7806516,20,392061.82999999984,24,0.769,Well served
+9467698996,Monroe Beauty Shop,chemist,Manyatta A,-0.0890568,34.7701046,23,398694.81000000006,24,0.885,Well served
+9467699005,Kibos Sugar And Allied Industries,chemist,Southern sublocation,-0.1038568,34.7576471,22,400294.7100000003,24,0.846,Well served
+9467699012,Bether,chemist,Nyalenda A,-0.1150767,34.7647999,23,463491.9600000002,24,0.885,Well served
+10559137642,Chandarana FoodPlus,supermarket,Southern sublocation,-0.1068974,34.7520682,22,1258869.8199999996,24,0.846,Well served
+10579036149,Micromed Pharmacy,chemist,Nyawita sublocation,-0.0830038,34.774878,22,843365.5600000006,24,0.846,Well served
+10588857558,Roastiez butchery,butcher,Industrial Area,-0.0929534,34.7638524,22,192557.47,24,0.846,Well served
+10588857559,Platinum Liquor World,alcohol,Bandari sublocation,-0.0928839,34.7637912,22,491275.8299999999,24,0.846,Well served
+10718898100,Nyawita,unclassified,Nyawita sublocation,-0.0781062,34.7727546,21,236998.6700000001,24,0.808,Well served
+10860047051,Bukuga Market,unclassified,,0.0349866,34.691672,21,141626.97000000003,24,0.808,Well served
+10898735238,Carrefour,supermarket,Northern sublocation,-0.0983258,34.7625758,21,1069636.1599999997,24,0.808,Well served
+10898822430,Carrefour,supermarket,Southern sublocation,-0.104131,34.7527208,22,1381640.28,24,0.846,Well served
+10898822431,Beyond Fruits,greengrocer,Southern sublocation,-0.1039848,34.7526448,22,220713.12000000008,24,0.846,Well served
+10921144544,Prafulla enterprises Ltd.,wholesale,Bandari sublocation,-0.0975036,34.7501618,22,1659877.8299999987,24,0.846,Well served
+10921245484,Bachulal popatlal,gas,Bandari sublocation,-0.096264,34.7518993,22,659121.2400000003,24,0.846,Well served
+10921245485,Mjengo Supermart,wholesale,Bandari sublocation,-0.0961663,34.7520166,22,1749409.9099999997,24,0.846,Well served
+10921245494,U shop,wholesale,Bandari sublocation,-0.0951773,34.7526606,21,1738578.8099999998,24,0.808,Well served
+10921245495,Healthy U,supermarket,Southern sublocation,-0.1042203,34.752035,22,1349406.3699999996,24,0.846,Well served
+10928805131,Sunbake Enterprises,wholesale,Bandari sublocation,-0.0909562,34.7565784,22,1141074.6600000004,24,0.846,Well served
+10928805132,Nyanza Sugar & produce Ltd,farm,Bandari sublocation,-0.09146,34.756338,21,164051.32999999996,24,0.808,Well served
+10928805133,Kenya Wine Agencies Ltd,alcohol,Bandari sublocation,-0.091586,34.756267,22,404040.20000000007,24,0.846,Well served
+10928935692,Mawele Wines & Spirits,alcohol,Bandari sublocation,-0.0979224,34.7512343,23,670031.4999999997,24,0.885,Well served
+10928935693,Paul Packaging Items,wholesale,Bandari sublocation,-0.0979792,34.7512878,23,1746637.6600000004,24,0.885,Well served
+10928935695,Unknown,kiosk,Bandari sublocation,-0.0980372,34.7550798,23,273508.9600000001,24,0.885,Well served
+10928935696,Apechem Agrovet,agrarian,Bandari sublocation,-0.0979593,34.7550042,18,587724.9500000001,24,0.692,Moderately served
+10928935961,Salpro Kisumu Ltd,wholesale,Bandari sublocation,-0.0981696,34.7516986,22,1737174.269999999,24,0.846,Well served
+10931608141,Boom Mart,supermarket,Migosi,-0.078952,34.7843248,23,2728286.9599999995,24,0.885,Well served
+10931608142,Unknown,alcohol,,-0.0804934,34.7845008,22,828937.4599999998,24,0.846,Well served
+10931608143,Unknown,alcohol,,-0.0805919,34.7845031,19,775963.77,24,0.731,Well served
+10931608144,Unknown,alcohol,,-0.0799828,34.7850046,21,815490.7100000001,24,0.808,Well served
+10931690117,Famaroma Enterprises,kiosk,West Kajulu location,-0.0581451,34.7848082,22,159625.26999999993,24,0.846,Well served
+10931690118,Singo Butchery,butcher,West Kajulu location,-0.0612725,34.7798423,22,156916.82000000004,24,0.846,Well served
+10933997337,Jossy G Traders Shop,kiosk,Manyatta A,-0.0838278,34.7747072,22,368940.05000000005,24,0.846,Well served
+10933997344,wema feeds,agrarian,Manyatta A,-0.0833781,34.7750547,22,951101.2499999997,24,0.846,Well served
+10933997347,Wise choice Kenya bakeries,bakery,Manyatta A,-0.0833423,34.7751861,23,911437.1900000001,24,0.885,Well served
+10933997348,Kosogo wines and spitits,alcohol,Manyatta A,-0.0833314,34.7752213,23,972683.33,24,0.885,Well served
+10933997354,Fricada Liquor baze,alcohol,Manyatta A,-0.0832826,34.7753358,22,886558.76,24,0.846,Well served
+10933998079,Y&M wines and spirits,alcohol,Migosi,-0.0816187,34.7796458,21,874230.4799999997,24,0.808,Well served
+10936324381,Yurop butchery,butcher,Nyawita sublocation,-0.084615,34.7731527,23,363060.53,24,0.885,Well served
+10936324384,Unknown,kiosk,Nyawita sublocation,-0.0846984,34.7730737,23,350969.10999999975,24,0.885,Well served
+10936324385,Unknown,kiosk,Nyawita sublocation,-0.0846984,34.7730489,22,325956.95000000007,24,0.846,Well served
+10936335484,Unknown,kiosk,Manyatta A,-0.0800925,34.7842398,22,317330.1100000001,24,0.846,Well served
+10936335485,Unknown,kiosk,Manyatta A,-0.0801022,34.7841911,22,302075.1699999999,24,0.846,Well served
+10936335486,Unknown,kiosk,Manyatta A,-0.0801254,34.7841498,21,323645.9400000002,24,0.808,Well served
+10936335487,Unknown,kiosk,Manyatta A,-0.0800816,34.7842897,22,313431.8100000002,24,0.846,Well served
+10936347161,Fourems holdings,kiosk,Manyatta A,-0.0820743,34.7786704,22,279800.45999999985,24,0.846,Well served
+10936347165,Unknown,butcher,Migosi,-0.0818571,34.7788406,22,283292.8599999998,24,0.846,Well served
+10936347166,sawa sawa wines & Spirits,alcohol,Migosi,-0.0790444,34.7845388,23,1009213.26,24,0.885,Well served
+10936347167,Hills mount super butchery,butcher,Migosi,-0.0791118,34.7844936,21,386788.3200000002,24,0.808,Well served
+10936347171,oyoma butchery,butcher,Migosi,-0.0792236,34.7844412,23,376844.7600000001,24,0.885,Well served
+10936347173,Unknown,agrarian,Migosi,-0.0793168,34.7844421,22,940398.0700000004,24,0.846,Well served
+10936347180,Unknown,butcher,,-0.0802617,34.7844952,23,324795.6899999999,24,0.885,Well served
+10936347185,Johns Liquor,alcohol,,-0.079985,34.784734,21,788759.56,24,0.808,Well served
+10936347186,chicken shop,farm,,-0.080018,34.7846405,22,364872.18000000034,24,0.846,Well served
+10936347187,Emmy John's Gas center,gas,,-0.0800042,34.7846771,19,760013.3,24,0.731,Well served
+10936347188,Geno pork & Chicken,butcher,Manyatta A,-0.0799266,34.7842408,21,311309.0200000001,24,0.808,Well served
+10936384848,Nancyto wines & Spirits,alcohol,,-0.0799089,34.7849246,21,765423.5800000002,24,0.808,Well served
+10936497880,ziwani butchery,butcher,Lolwe,-0.0742888,34.7815067,23,295833.7199999999,24,0.885,Well served
+10936497881,Unknown,greengrocer,Lolwe,-0.0745244,34.7818231,23,289250.60999999987,24,0.885,Well served
+10936497882,Unknown,greengrocer,Lolwe,-0.0745712,34.7818599,22,303887.52999999997,24,0.846,Well served
+10936507299,Unknown,butcher,Lolwe,-0.0745583,34.7816688,21,300179.95000000007,24,0.808,Well served
+10936507300,Unknown,greengrocer,Lolwe,-0.0745055,34.7816239,21,303623.04,24,0.808,Well served
+10936507934,Denji Liquors,alcohol,Migosi,-0.0747645,34.7820571,23,769205.3100000003,24,0.885,Well served
+10936507937,Unknown,kiosk,Migosi,-0.0746668,34.7819434,21,290018.5,24,0.808,Well served
+10936507938,Unknown,kiosk,Migosi,-0.074657,34.781923,21,314849.3099999997,24,0.808,Well served
+10936507939,Unknown,kiosk,Lolwe,-0.0746685,34.7819043,21,307349.3299999999,24,0.808,Well served
+10936507940,Unknown,kiosk,Lolwe,-0.0746792,34.7817775,22,306373.17000000004,24,0.846,Well served
+10936507941,Unknown,butcher,Lolwe,-0.0746349,34.7817323,23,304751.43000000017,24,0.885,Well served
+10937101485,Unknown,butcher,Migosi,-0.0812212,34.7806229,23,348000.72000000003,24,0.885,Well served
+10937108652,central butchery,butcher,Southern sublocation,-0.1038943,34.7576567,21,152204.43999999997,24,0.808,Well served
+10940498841,Trishla wholesalers,wholesale,Bandari sublocation,-0.0978161,34.7520106,21,1603976.5000000007,24,0.808,Well served
+10940498843,Jain Trading Ltd.,wholesale,Bandari sublocation,-0.0978369,34.7523514,21,1603247.8599999999,24,0.808,Well served
+10940498844,Kendeep agencies,wholesale,Bandari sublocation,-0.096932,34.7533833,21,1726466.5500000003,24,0.808,Well served
+10940498846,Victoria Bakery,bakery,Bandari sublocation,-0.0967801,34.7532524,22,644971.8900000001,24,0.846,Well served
+10941873516,Midrock farms ltd,agrarian,Bandari sublocation,-0.0990339,34.7517624,22,659832.5499999996,24,0.846,Well served
+10943819781,Afro Drip,agrarian,Bandari sublocation,-0.0994984,34.750917,22,722904.2999999998,24,0.846,Well served
+10943873313,Amalo company ltd.,wholesale,Bandari sublocation,-0.0988973,34.7522388,20,1689271.1700000002,24,0.769,Well served
+11016540441,Zoro's cool drinking water,water,Northern sublocation,-0.1070431,34.7697873,21,406623.0499999997,24,0.808,Well served
+11016540446,Beyond Fruits,farm,Northern sublocation,-0.1079861,34.769631,21,146103.15999999997,24,0.808,Well served
+11030023226,Roadside General store,general,Celtel Estate,-0.0954613,34.7686557,23,498918.5799999998,24,0.885,Well served
+11030023227,Kim's Poultry,agrarian,Northern sublocation,-0.0954703,34.7685668,22,500377.05999999976,24,0.846,Well served
+11030023276,Beyond Fruits,greengrocer,Milimani,-0.1070988,34.7518718,22,187817.7200000001,24,0.846,Well served
+11034143944,marhaba,convenience,Milimani,-0.1006279,34.7531505,22,739234.1100000001,24,0.846,Well served
+11035432654,Umuya shop,kiosk,Nyawita sublocation,-0.0834251,34.7741285,21,342309.8100000002,24,0.808,Well served
+11035432656,Rinas Milk shop,dairy,Nyawita sublocation,-0.083287,34.7742184,23,361445.7199999999,24,0.885,Well served
+11035432658,sigma feeds,agrarian,Nyawita sublocation,-0.0830972,34.7742902,23,889974.6900000004,24,0.885,Well served
+11035432662,Munyao poultry enterprises,agrarian,Nyawita sublocation,-0.0828433,34.7744072,23,877699.2899999996,24,0.885,Well served
+11035432663,KIM's poultry enterprises,agrarian,Nyawita sublocation,-0.0827868,34.7744329,22,863001.6299999997,24,0.846,Well served
+11035432669,Pramukh wholesale & retail,wholesale,Nyawita sublocation,-0.0822682,34.7750029,20,2456118.41,24,0.769,Well served
+11041880762,Onion center,greengrocer,Migosi,-0.0758722,34.7807062,23,384783.43000000017,24,0.885,Well served
+11041880763,Manchi water,water,Migosi,-0.075946,34.7805908,23,976955.6200000002,24,0.885,Well served
+11044596296,Divineland milk & honey,dairy,,-0.0811797,34.7845126,23,295201.2900000001,24,0.885,Well served
+11044596300,Ondisore farmers choice depot,kiosk,,-0.0809866,34.7845267,21,288468.4399999998,24,0.808,Well served
+11044596301,zamani cake suppliers,bakery,Manyatta A,-0.0808029,34.7843295,22,772976.3600000006,24,0.846,Well served
+11044610206,Lakeside Halal butchery,butcher,,-0.0807211,34.7844952,21,310186.02999999997,24,0.808,Well served
+11088822295,kibuye wholesalers,wholesale,Bandari sublocation,-0.097737,34.7535512,22,1637113.140000001,24,0.846,Well served
+11088822297,Galaiya stores Ltd,wholesale,Bandari sublocation,-0.0972113,34.7537631,23,1737651.46,24,0.885,Well served
+11094245646,Kijani purified,water,Migosi,-0.0782233,34.7852488,20,935929.4200000002,24,0.769,Well served
+11094246713,maziwa dairy,dairy,Migosi,-0.0757865,34.7805121,21,354794.49000000005,24,0.808,Well served
+11094246714,Farm fresh,dairy,Migosi,-0.0758676,34.7801527,23,388438.7799999999,24,0.885,Well served
+11094246716,Unknown,butcher,Migosi,-0.075875,34.7800548,22,383806.47,24,0.846,Well served
+11094246725,Unknown,gas,Migosi,-0.0759078,34.7785614,21,701914.2499999999,24,0.808,Well served
+11094250478,westland veve shop,kiosk,Migosi,-0.0758966,34.7806524,22,394690.50999999995,24,0.846,Well served
+13714210033,pepsi,wholesale,Buoye,-0.1390865,34.7975243,22,873627.6699999998,24,0.846,Well served
+13714210045,Rabuor gen mart,wholesale,Kochieng sublocation,-0.1532883,34.8288615,22,874139.8100000002,24,0.846,Well served
+13749616722,tuffoam limited factory outlet,wholesale,Celtel Estate,-0.0954578,34.7676872,22,1232461.8899999994,24,0.846,Well served
+13749654037,taji,water,Bandari sublocation,-0.0920758,34.7614069,22,375814.73000000004,24,0.846,Well served
+13749654038,jaaria mini mart,supermarket,Bandari sublocation,-0.0977095,34.7554512,21,1588758.3699999994,24,0.808,Well served
+13749654039,keki Na taji,bakery,Bandari sublocation,-0.0920593,34.7615096,23,373244.45999999985,24,0.885,Well served
