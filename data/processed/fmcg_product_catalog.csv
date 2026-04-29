@@ -1,0 +1,25 @@
+sku,brand,name,size,category,wholesale_price,retail_price,weight_g,category_weight,margin_pct
+OIL001,Bidco,Golden Fry Cooking Oil,500ml,cooking_oil,135,165,460,0.18,18.2
+OIL002,Bidco,Golden Fry Cooking Oil,1L,cooking_oil,265,320,920,0.18,17.2
+OIL003,Kapa,Soya King Cooking Oil,500ml,cooking_oil,128,158,460,0.18,19.0
+OIL004,Kapa,Soya King Cooking Oil,1L,cooking_oil,252,310,920,0.18,18.7
+FLR001,Unga,Jogoo Maize Flour,1kg,flour,145,175,1000,0.22,17.1
+FLR002,Unga,Jogoo Maize Flour,2kg,flour,285,345,2000,0.22,17.4
+FLR003,Unga,Pembe Maize Flour,1kg,flour,140,170,1000,0.22,17.6
+FLR004,Kabras,Kabras Maize Flour,2kg,flour,275,335,2000,0.22,17.9
+SUG001,Mumias,Mumias Sugar,1kg,sugar,168,200,1000,0.16,16.0
+SUG002,Mumias,Mumias Sugar,2kg,sugar,330,395,2000,0.16,16.5
+SUG003,Nzoia,Nzoia Sugar,1kg,sugar,162,195,1000,0.16,16.9
+SOP001,Unilever,Omo Detergent,500g,soap,145,175,500,0.12,17.1
+SOP002,Unilever,Sunlight Bar Soap,175g,soap,42,55,175,0.12,23.6
+SOP003,Bidco,Bidco Bar Soap,800g,soap,115,140,800,0.12,17.9
+SOP004,Reckitt,Dettol Bar Soap,100g,soap,58,75,100,0.12,22.7
+BEV001,Kevian,Afia Juice,500ml,beverages,48,60,500,0.14,20.0
+BEV002,Kevian,Pick n Peel Juice,300ml,beverages,32,40,300,0.14,20.0
+BEV003,EABL,Tusker Lager,500ml,beverages,175,210,500,0.14,16.7
+BEV004,Coca-Cola,Coca-Cola Soda,500ml,beverages,58,70,500,0.14,17.1
+PC001,Unilever,Vaseline Body Lotion,200ml,personal_care,175,215,200,0.1,18.6
+PC002,Unilever,Dove Bar Soap,100g,personal_care,98,120,100,0.1,18.3
+PC003,Colgate,Colgate Toothpaste,100ml,personal_care,118,145,100,0.1,18.6
+SAN001,P&G,Always Pads,8 pack,sanitary,88,110,80,0.08,20.0
+SAN002,Kimberly-Clark,Huggies Diapers,10 pack,sanitary,285,350,400,0.08,18.6
