@@ -10,8 +10,12 @@ from dotenv import load_dotenv
 from pathlib import Path
 import os
 
-load_dotenv()
-DB_URL = os.getenv("DATABASE_URL")
+if "DATABASE_URL" in st.secrets:
+    DB_URL = st.secrets["DATABASE_URL"]
+else:
+    from dotenv import load_dotenv
+    load_dotenv()
+    DB_URL = os.getenv("DATABASE_URL")
 
 # -------------------------------------------------------
 # Page config
