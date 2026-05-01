@@ -9,10 +9,10 @@ load_dotenv()
 DB_URL = os.getenv("DATABASE_URL")
 OUTPUT_DIR = Path("data/processed")
 
-# -------------------------------------------------------
+"""
 # Outlet size tiers — weekly base demand in units
 # Calibrated against AfDB informal retail studies
-# -------------------------------------------------------
+"""
 SIZE_TIERS = {
     "large":  {"types": ["wholesale", "supermarket"],                          "base_units": 120},
     "medium": {"types": ["chemist", "convenience", "grocery", "general",
@@ -25,7 +25,7 @@ def get_size_tier(shop_type):
     for tier, config in SIZE_TIERS.items():
         if shop_type in config["types"]:
             return tier
-    return "small"  # default
+    return "small" 
 
 def get_base_units(tier):
     return SIZE_TIERS[tier]["base_units"]
@@ -38,7 +38,6 @@ def build_density_scores(engine):
     """
     print("Building location density scores...")
     
-    # Load FMCG outlets
     with engine.connect() as conn:
         result = conn.execute(text("""
             SELECT osm_id, latitude, longitude, shop_type
@@ -46,12 +45,15 @@ def build_density_scores(engine):
             ORDER BY osm_id;
         """))
         outlets = result.fetchall()
-    
+    """
+    # For each outlet, count how many other outlets are within 500m
+    # More neighbours = denser area = higher demand
+    """
     # For each outlet, count how many other outlets are within 500m
     # More neighbours = denser area = higher demand
     outlet_df = pd.DataFrame(outlets, columns=["osm_id", "lat", "lon", "shop_type"])
     
-    # Simple density proxy: count neighbours within ~0.005 degrees (~500m)
+
     density_scores = {}
     for _, row in outlet_df.iterrows():
         neighbours = outlet_df[
@@ -61,7 +63,6 @@ def build_density_scores(engine):
         count = len(neighbours) - 1  # exclude self
         density_scores[row["osm_id"]] = count
     
-    # Normalise to range 0.5 - 1.5
     scores = pd.Series(density_scores)
     min_s, max_s = scores.min(), scores.max()
     normalised = 0.5 + (scores - min_s) / (max_s - min_s + 1e-9)
@@ -72,7 +73,6 @@ def build_density_scores(engine):
 def build_demand_profiles(engine):
     print("\nBuilding demand profiles...")
     
-    # Load outlets and products
     with engine.connect() as conn:
         outlets = pd.read_sql("SELECT osm_id, name, shop_type FROM outlets_fmcg;", conn)
         products = pd.read_sql("SELECT sku, category, category_weight FROM product_catalog;", conn)
@@ -87,8 +87,11 @@ def build_demand_profiles(engine):
         density = density_scores.get(outlet["osm_id"], 1.0)
         
         for _, product in products.iterrows():
+            """
             # Weekly demand = base units × category weight × density × random variance
             # Random variance ±20% — real outlets don't all sell exactly the same
+            """
+            
             variance = np.random.uniform(0.8, 1.2)
             weekly_units = base * product["category_weight"] * density * variance
             weekly_units = max(1, round(weekly_units))  # minimum 1 unit/week
@@ -106,7 +109,6 @@ def build_demand_profiles(engine):
     
     df = pd.DataFrame(profiles)
     
-    # Save
     out_path = OUTPUT_DIR / "outlet_demand_profiles.csv"
     df.to_csv(out_path, index=False)
     print(f"Saved {len(df)} outlet-SKU demand profiles to {out_path}")
@@ -129,7 +131,6 @@ def analyse_profiles(df):
     for tier, row in tier_summary.iterrows():
         print(f"{tier:<10} {row['outlets']:>8} {row['avg_weekly_units']:>14.1f} {row['total_weekly_units']:>12.0f}")
     
-    # Top categories by total weekly demand
     cat_summary = df.groupby("category")["weekly_units"].sum().sort_values(ascending=False)
     
     print("\nTotal weekly units by category (all outlets):")
@@ -137,7 +138,6 @@ def analyse_profiles(df):
         bar = "█" * int(units / cat_summary.max() * 30)
         print(f"  {cat:<15} {units:>6.0f}  {bar}")
     
-    # Top 5 highest volume outlets
     outlet_volume = df.groupby(["osm_id", "outlet_name", "shop_type", "size_tier"])[
         "weekly_units"].sum().sort_values(ascending=False).head(5)
     

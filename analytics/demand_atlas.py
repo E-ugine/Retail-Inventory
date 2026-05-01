@@ -16,11 +16,11 @@ SIMULATION_END = date(2024, 12, 23)
 def get_engine():
     return create_engine(DB_URL)
 
-# -------------------------------------------------------
+"""
 # MODULE 1: Sales Velocity
 # Rolling 4-week average units sold per SKU
 # per geographic cluster (suburb)
-# -------------------------------------------------------
+"""
 def sales_velocity(engine):
     print("\n=== MODULE 1: Sales Velocity ===")
 
@@ -59,7 +59,6 @@ def sales_velocity(engine):
         .sort_values("total_units", ascending=False)
     )
 
-    # Save
     out_path = OUTPUT_DIR / "sales_velocity.csv"
     velocity.to_csv(out_path, index=False)
 
@@ -72,11 +71,11 @@ def sales_velocity(engine):
 
     return velocity
 
-# -------------------------------------------------------
+"""
 # MODULE 2: Stockout Probability
 # For each outlet-SKU, estimate current inventory level
 # based on last delivery date and average depletion rate
-# -------------------------------------------------------
+"""
 def stockout_probability(engine):
     print("\n=== MODULE 2: Stockout Probability ===")
 
@@ -108,7 +107,6 @@ def stockout_probability(engine):
         if len(group) < 2:
             continue
 
-        # Last delivery
         last_delivery_date = group["invoice_date"].max()
         last_delivery_qty = group[
             group["invoice_date"] == last_delivery_date
@@ -122,16 +120,12 @@ def stockout_probability(engine):
         if avg_days_between_orders <= 0:
             continue
 
-        # Daily depletion rate
         daily_depletion = avg_order_qty / avg_days_between_orders
 
-        # Days since last delivery
         days_since_delivery = (simulation_end - last_delivery_date).days
 
-        # Implied current stock
         implied_stock = last_delivery_qty - (daily_depletion * days_since_delivery)
 
-        # Stockout probability — how far below zero are we?
         if implied_stock <= 0:
             stockout_prob = 1.0
         elif implied_stock < avg_order_qty * 0.25:
@@ -160,11 +154,9 @@ def stockout_probability(engine):
 
     stockout_df = pd.DataFrame(records)
 
-    # Save
     out_path = OUTPUT_DIR / "stockout_probability.csv"
     stockout_df.to_csv(out_path, index=False)
 
-    # Summary by suburb
     print(f"\nStockout probability summary:")
     prob_counts = stockout_df.groupby(
         pd.cut(stockout_df["stockout_probability"],
@@ -177,7 +169,6 @@ def stockout_probability(engine):
         bar = "█" * int(count / prob_counts.max() * 25)
         print(f"  {str(label):<20} {count:>6} outlet-SKUs  {bar}")
 
-    # Top 10 critical stockouts
     critical = (
         stockout_df[stockout_df["stockout_probability"] >= 0.75]
         .groupby(["suburb", "category"])
@@ -194,11 +185,11 @@ def stockout_probability(engine):
 
     return stockout_df
 
-# -------------------------------------------------------
+"""
 # MODULE 3: Coverage Gap Analysis
 # Suburbs with high outlet density but low
 # distributor transaction frequency
-# -------------------------------------------------------
+"""
 def coverage_gap_analysis(engine):
     print("\n=== MODULE 3: Coverage Gap Analysis ===")
 
@@ -224,7 +215,7 @@ def coverage_gap_analysis(engine):
         visit_freq["weeks_active"] / TOTAL_WEEKS
     ).round(3)
 
-    # Classify outlets
+
     def classify(freq):
         if freq >= 0.7:
             return "Well served"
@@ -235,11 +226,9 @@ def coverage_gap_analysis(engine):
 
     visit_freq["service_level"] = visit_freq["visit_frequency"].apply(classify)
 
-    # Save
     out_path = OUTPUT_DIR / "coverage_gaps.csv"
     visit_freq.to_csv(out_path, index=False)
 
-    # Summary by service level
     service_summary = visit_freq.groupby("service_level").agg(
         outlet_count=("outlet_osm_id", "count"),
         avg_weeks_active=("weeks_active", "mean"),
@@ -254,7 +243,6 @@ def coverage_gap_analysis(engine):
               f"{row['avg_weeks_active']:>16.1f} "
               f"{row['avg_revenue']:>18,.0f}")
 
-    # Underserved outlets by suburb
     underserved = (
         visit_freq[visit_freq["service_level"] == "Underserved"]
         .groupby("suburb")
@@ -273,7 +261,6 @@ def coverage_gap_analysis(engine):
         print(f"{str(suburb)[:24]:<25} {row['underserved_outlets']:>20} "
               f"{row['avg_frequency']:>15.2%}")
 
-    # Bottom 10 outlets by visit frequency — most neglected
     print(f"\nBottom 10 outlets by visit frequency:")
     print(f"\n{'Outlet':<28} {'Type':<14} {'Suburb':<20} {'Freq':>6}")
     print("-" * 72)
@@ -293,7 +280,6 @@ def main():
     stockout_df = stockout_probability(engine)
     coverage = coverage_gap_analysis(engine)
 
-    # Load all three into database
     print("\nLoading intelligence tables into database...")
     with engine.connect() as conn:
         velocity.to_sql("intel_sales_velocity", conn,

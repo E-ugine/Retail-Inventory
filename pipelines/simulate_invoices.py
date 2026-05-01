@@ -17,10 +17,11 @@ START_DATE = date(2024, 7, 1)
 WEEKS = 26  # 6 months
 REORDER_THRESHOLD = 0.25  # reorder when stock drops below 25% of weekly demand
 
-# -------------------------------------------------------
+"""
 # Distributors — 5 synthetic distributors covering
 # different geographic zones of Kisumu
-# -------------------------------------------------------
+"""
+
 DISTRIBUTORS = [
     {"id": "DIST_001", "name": "Kisumu Central Distributors",
      "lat": -0.091, "lon": 34.769, "zone": "CBD"},
@@ -76,8 +77,10 @@ def simulate_outlet_invoices(outlet, profiles_for_outlet, products):
     for week in range(WEEKS):
         week_date = current_date + timedelta(weeks=week)
         
+        """
         # Add some irregular ordering behaviour
         # 5% chance outlet skips ordering this week (stockout/holiday)
+        """
         if random.random() < 0.05:
             # Deplete stock but don't order
             for sku in stock:
@@ -90,18 +93,15 @@ def simulate_outlet_invoices(outlet, profiles_for_outlet, products):
             threshold = weekly_demand[sku] * REORDER_THRESHOLD
             
             if current_stock <= threshold:
-                # Order 2–4 weeks of supply
-                weeks_to_order = random.randint(2, 4)
+                weeks_to_order = random.randint(2, 4) #2-4 wks
                 order_qty = round(weekly_demand[sku] * weeks_to_order)
                 order_qty = max(1, order_qty)
                 order_items.append((sku, order_qty))
                 stock[sku] += order_qty
         
-        # If there are items to order, create invoice records
         for sku, qty in order_items:
             product = products[products["sku"] == sku].iloc[0]
             
-            # Small price variance ±5% — real prices fluctuate
             price_variance = random.uniform(0.95, 1.05)
             unit_price = round(product["wholesale_price"] * price_variance, 2)
             
@@ -212,7 +212,7 @@ def analyse_invoices(df):
     for (_, name, otype), rev in outlet_rev.items():
         print(f"{name[:27]:<28} {otype:<14} {rev:>14,.0f}")
     
-    # Stockout signal — outlets with gaps > 3 weeks in any category
+    # Stockout signal. Outlets with gaps > 3 weeks in any category
     print("\nStockout signals (outlets with ordering gaps > 3 weeks):")
     df["invoice_date"] = pd.to_datetime(df["invoice_date"])
     gaps = (df.groupby(["outlet_osm_id", "category"])["invoice_date"]
@@ -223,12 +223,10 @@ def analyse_invoices(df):
     print(f"  (These are probable stockout events in the synthetic data)")
 
 def save_and_load(df, engine):
-    # Save to parquet — more efficient than CSV for large datasets
     out_path = OUTPUT_DIR / "kisumu_synthetic_invoices.parquet"
     df.to_parquet(out_path, index=False)
     print(f"\nSaved to {out_path} ({out_path.stat().st_size / 1024:.0f} KB)")
-    
-    # Load into database
+
     print("Loading into database...")
     df.to_sql("synthetic_invoices", engine, if_exists="replace",
               index=False, chunksize=1000)

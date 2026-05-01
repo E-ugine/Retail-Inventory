@@ -17,9 +17,6 @@ else:
     load_dotenv()
     DB_URL = os.getenv("DATABASE_URL")
 
-# -------------------------------------------------------
-# Page config
-# -------------------------------------------------------
 st.set_page_config(
     page_title="Kisumu Retail Intelligence",
     page_icon="🛒",
@@ -27,9 +24,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# -------------------------------------------------------
-# Data loading — cached so it only runs once
-# -------------------------------------------------------
+
 @st.cache_data
 def load_data():
     engine = create_engine(DB_URL)
@@ -59,9 +54,9 @@ def load_data():
 
 outlets, velocity, stockout, coverage, invoices = load_data()
 
-# -------------------------------------------------------
+
 # Sidebar
-# -------------------------------------------------------
+
 st.sidebar.image("https://via.placeholder.com/200x60?text=Kisumu+Retail+Intel",
                  use_container_width=True)
 st.sidebar.markdown("---")
@@ -72,15 +67,15 @@ st.sidebar.markdown("**SKUs monitored:** 24")
 st.sidebar.markdown("**Invoice lines:** 50,605")
 st.sidebar.markdown("---")
 st.sidebar.caption(
-    "⚠️ Powered by synthetic transaction data modelled on "
+    "Powered by synthetic transaction data modelled on "
     "Kisumu informal retail structure. "
     "Contact us to integrate real distributor data."
 )
 
 page = st.sidebar.radio(
     "Navigate",
-    ["🏙️ City Overview", "📈 Sales Velocity",
-     "⚠️ Stockout Signals", "🗺️ Coverage Gaps"]
+    [" City Overview", " Sales Velocity",
+     " Stockout Signals", " Coverage Gaps"]
 )
 
 # -------------------------------------------------------
@@ -156,9 +151,8 @@ if page == "🏙️ City Overview":
     fig.update_layout(showlegend=False, height=350)
     st.plotly_chart(fig, use_container_width=True)
 
-# -------------------------------------------------------
 # PAGE 2: Sales Velocity
-# -------------------------------------------------------
+
 elif page == "📈 Sales Velocity":
     st.title("📈 Sales Velocity — Last 4 Weeks")
     st.markdown(
@@ -166,7 +160,6 @@ elif page == "📈 Sales Velocity":
         "Higher velocity = higher restocking priority."
     )
 
-    # Filters
     col1, col2 = st.columns(2)
     with col1:
         selected_category = st.selectbox(
@@ -235,9 +228,7 @@ elif page == "📈 Sales Velocity":
             use_container_width=True
         )
 
-# -------------------------------------------------------
 # PAGE 3: Stockout Signals
-# -------------------------------------------------------
 elif page == "⚠️ Stockout Signals":
     st.title("⚠️ Stockout Signals")
     st.markdown(
@@ -346,9 +337,7 @@ elif page == "⚠️ Stockout Signals":
         use_container_width=True
     )
 
-# -------------------------------------------------------
 # PAGE 4: Coverage Gaps
-# -------------------------------------------------------
 elif page == "🗺️ Coverage Gaps":
     st.title("🗺️ Coverage Gap Analysis")
     st.markdown(

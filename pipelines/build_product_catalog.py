@@ -4,14 +4,14 @@ from pathlib import Path
 OUTPUT_DIR = Path("data/processed")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# -------------------------------------------------------
+"""
 # FMCG Product Catalog for Kenya informal retail
 # Sources: brand websites, Jumia Kenya, trade press
 # Prices in KES at wholesale (approx 20% below retail)
-# -------------------------------------------------------
+"""
 
 PRODUCTS = [
-    # --- COOKING OIL ---
+    # COOKING OIL
     {"sku": "OIL001", "brand": "Bidco", "name": "Golden Fry Cooking Oil",
      "size": "500ml", "category": "cooking_oil", "wholesale_price": 135,
      "retail_price": 165, "weight_g": 460},
@@ -28,7 +28,7 @@ PRODUCTS = [
      "size": "1L", "category": "cooking_oil", "wholesale_price": 252,
      "retail_price": 310, "weight_g": 920},
 
-    # --- FLOUR ---
+    # FLOUR
     {"sku": "FLR001", "brand": "Unga", "name": "Jogoo Maize Flour",
      "size": "1kg", "category": "flour", "wholesale_price": 145,
      "retail_price": 175, "weight_g": 1000},
@@ -45,7 +45,7 @@ PRODUCTS = [
      "size": "2kg", "category": "flour", "wholesale_price": 275,
      "retail_price": 335, "weight_g": 2000},
 
-    # --- SUGAR ---
+    # SUGAR
     {"sku": "SUG001", "brand": "Mumias", "name": "Mumias Sugar",
      "size": "1kg", "category": "sugar", "wholesale_price": 168,
      "retail_price": 200, "weight_g": 1000},
@@ -58,7 +58,7 @@ PRODUCTS = [
      "size": "1kg", "category": "sugar", "wholesale_price": 162,
      "retail_price": 195, "weight_g": 1000},
 
-    # --- SOAP ---
+    # SOAP 
     {"sku": "SOP001", "brand": "Unilever", "name": "Omo Detergent",
      "size": "500g", "category": "soap", "wholesale_price": 145,
      "retail_price": 175, "weight_g": 500},
@@ -75,7 +75,7 @@ PRODUCTS = [
      "size": "100g", "category": "soap", "wholesale_price": 58,
      "retail_price": 75, "weight_g": 100},
 
-    # --- BEVERAGES ---
+    # BEVERAGES
     {"sku": "BEV001", "brand": "Kevian", "name": "Afia Juice",
      "size": "500ml", "category": "beverages", "wholesale_price": 48,
      "retail_price": 60, "weight_g": 500},
@@ -92,7 +92,7 @@ PRODUCTS = [
      "size": "500ml", "category": "beverages", "wholesale_price": 58,
      "retail_price": 70, "weight_g": 500},
 
-    # --- PERSONAL CARE ---
+    # PERSONAL CARE 
     {"sku": "PC001", "brand": "Unilever", "name": "Vaseline Body Lotion",
      "size": "200ml", "category": "personal_care", "wholesale_price": 175,
      "retail_price": 215, "weight_g": 200},
@@ -105,7 +105,7 @@ PRODUCTS = [
      "size": "100ml", "category": "personal_care", "wholesale_price": 118,
      "retail_price": 145, "weight_g": 100},
 
-    # --- SANITARY ---
+    # SANITARY 
     {"sku": "SAN001", "brand": "P&G", "name": "Always Pads",
      "size": "8 pack", "category": "sanitary", "wholesale_price": 88,
      "retail_price": 110, "weight_g": 80},
@@ -115,11 +115,11 @@ PRODUCTS = [
      "retail_price": 350, "weight_g": 400},
 ]
 
-# -------------------------------------------------------
+"""
 # KNBS-derived category demand weights
 # Based on KIHBS household expenditure proportions
 # for Kisumu County
-# -------------------------------------------------------
+"""
 CATEGORY_WEIGHTS = {
     "flour":        0.22,   # Staple — highest demand
     "cooking_oil":  0.18,   # Staple
@@ -140,7 +140,6 @@ def build_catalog():
     df["margin_pct"] = ((df["retail_price"] - df["wholesale_price"]) 
                         / df["retail_price"] * 100).round(1)
     
-    # Save
     out_path = OUTPUT_DIR / "fmcg_product_catalog.csv"
     df.to_csv(out_path, index=False)
     print(f"Saved {len(df)} SKUs to {out_path}")

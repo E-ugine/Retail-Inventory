@@ -118,10 +118,10 @@ def shop_type_distribution(engine):
         for row in rows:
             print(f"{row[0]:<20} {row[1]:>6} {row[2]:>6} {row[3]:>10} {row[4]:>10}")
 
-# -------------------------------------------------------
+"""
 # ANALYSIS 3: FMCG-relevant outlet filter
 # Isolate the outlets actually relevant to FMCG distribution
-# -------------------------------------------------------
+"""
 def fmcg_relevant_outlets(engine):
     print("\n=== FMCG-Relevant Outlets ===")
     
@@ -151,7 +151,6 @@ def fmcg_relevant_outlets(engine):
             print(f"  {row[0]:<20} {row[1]}")
         print(f"  {'TOTAL':<20} {total}")
         
-        # Save FMCG subset to its own table
         conn.execute(text("""
             DROP TABLE IF EXISTS outlets_fmcg;
             CREATE TABLE outlets_fmcg AS
