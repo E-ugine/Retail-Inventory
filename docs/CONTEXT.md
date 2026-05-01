@@ -24,12 +24,6 @@ companies (KES 500M–5B revenue). First target city: Kisumu.
 - Stack: Python, PostgreSQL + PostGIS, dbt, Streamlit
 - Hosting: DigitalOcean ($20/month)
 
-
-## 3-Month Roadmap
-- Month 1: Data foundation (OSM, WorldPop, KNBS → PostGIS)
-- Month 2: Synthetic invoice generator
-- Month 3: Analytics modules + Streamlit demo
-
 ## Key risk
 Distributor willingness to share invoice data. Demo de-risks
 this by making the value exchange concrete before the ask.~
