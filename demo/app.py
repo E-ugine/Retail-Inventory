@@ -65,7 +65,6 @@ outlets, velocity, stockout, coverage, invoices = load_data()
 
 st.sidebar.markdown("### 🛒 Kisumu Retail Intel")
 st.sidebar.markdown("---")
-st.sidebar.markdown("**Data period:** Jul – Dec 2024")
 st.sidebar.markdown("**City:** Kisumu, Kenya")
 st.sidebar.markdown("**Outlets tracked:** 256")
 st.sidebar.markdown("**SKUs monitored:** 24")
