@@ -57,8 +57,7 @@ outlets, velocity, stockout, coverage, invoices = load_data()
 
 # Sidebar
 
-st.sidebar.image("https://via.placeholder.com/200x60?text=Kisumu+Retail+Intel",
-                 use_container_width=True)
+st.sidebar.markdown("### 🛒 Kisumu Retail Intel")
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Data period:** Jul – Dec 2024")
 st.sidebar.markdown("**City:** Kisumu, Kenya")
