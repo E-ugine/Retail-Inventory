@@ -23,6 +23,12 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+st.markdown("""
+    <style>
+        iframe { min-height: 450px; }
+        .element-container { min-height: 10px; }
+    </style>
+""", unsafe_allow_html=True)
 
 
 @st.cache_data
@@ -73,13 +79,13 @@ st.sidebar.caption(
 
 page = st.sidebar.radio(
     "Navigate",
-    [" City Overview", " Sales Velocity",
-     " Stockout Signals", " Coverage Gaps"]
+    ["🏙️ City Overview", "📈 Sales Velocity",
+     "⚠️ Stockout Signals", "🗺️ Coverage Gaps"]
 )
 
-# -------------------------------------------------------
-# PAGE 1: City Overview
-# -------------------------------------------------------
+"""
+PAGE 1: City Overview
+"""
 if page == "🏙️ City Overview":
     st.title("🏙️ Kisumu Informal Retail — City Overview")
     st.markdown(
@@ -87,7 +93,6 @@ if page == "🏙️ City Overview":
         "derived from OpenStreetMap and enriched with demand intelligence."
     )
 
-    # KPI row
     col1, col2, col3, col4 = st.columns(4)
     col1.metric("FMCG Outlets Mapped", "256")
     col2.metric("Suburbs Covered", str(outlets["suburb"].nunique()))
@@ -96,7 +101,6 @@ if page == "🏙️ City Overview":
 
     st.markdown("---")
 
-    # Map
     st.subheader("Outlet Map")
     
     m = folium.Map(
@@ -105,7 +109,6 @@ if page == "🏙️ City Overview":
         tiles="CartoDB positron"
     )
 
-    # Color by shop type
     color_map = {
         "supermarket": "red",
         "wholesale": "blue",
@@ -132,9 +135,8 @@ if page == "🏙️ City Overview":
             )
         ).add_to(m)
 
-    st_folium(m, width=1100, height=500)
+    st_folium(m, width=None, height=500)
 
-    # Shop type breakdown
     st.markdown("---")
     st.subheader("Outlet Type Breakdown")
     type_counts = outlets["shop_type"].value_counts().reset_index()
@@ -150,7 +152,6 @@ if page == "🏙️ City Overview":
     fig.update_layout(showlegend=False, height=350)
     st.plotly_chart(fig, use_container_width=True)
 
-# PAGE 2: Sales Velocity
 
 elif page == "📈 Sales Velocity":
     st.title("📈 Sales Velocity — Last 4 Weeks")
@@ -180,7 +181,6 @@ elif page == "📈 Sales Velocity":
     )
     filtered = filtered[filtered["suburb"].isin(top_suburbs)]
 
-    # Heatmap
     st.subheader("Velocity Heatmap — Units Sold")
     pivot = filtered.pivot_table(
         index="suburb", columns="category",
@@ -200,7 +200,6 @@ elif page == "📈 Sales Velocity":
     )
     st.plotly_chart(fig, use_container_width=True)
 
-    # Revenue bar chart
     st.subheader("Revenue by Suburb (KES)")
     rev_by_suburb = (
         filtered.groupby("suburb")["total_revenue"]
@@ -220,14 +219,12 @@ elif page == "📈 Sales Velocity":
     fig2.update_layout(showlegend=False)
     st.plotly_chart(fig2, use_container_width=True)
 
-    # Raw table
     with st.expander("View raw velocity data"):
         st.dataframe(
             filtered.sort_values("total_units", ascending=False),
             use_container_width=True
         )
 
-# PAGE 3: Stockout Signals
 elif page == "⚠️ Stockout Signals":
     st.title("⚠️ Stockout Signals")
     st.markdown(
@@ -235,7 +232,6 @@ elif page == "⚠️ Stockout Signals":
         "based on last delivery date and average depletion rate."
     )
 
-    # Filters
     col1, col2 = st.columns(2)
     with col1:
         prob_filter = st.selectbox(
@@ -259,7 +255,6 @@ elif page == "⚠️ Stockout Signals":
     if cat_filter != "All":
         filtered_s = filtered_s[filtered_s["category"] == cat_filter]
 
-    # KPIs
     col1, col2, col3 = st.columns(3)
     col1.metric("Total Signals", len(filtered_s))
     col2.metric(
@@ -271,7 +266,6 @@ elif page == "⚠️ Stockout Signals":
         filtered_s["outlet_osm_id"].nunique()
     )
 
-    # Probability distribution
     st.subheader("Stockout Probability Distribution")
     bins = pd.cut(
         filtered_s["stockout_probability"],
@@ -290,7 +284,6 @@ elif page == "⚠️ Stockout Signals":
     fig3.update_layout(showlegend=False)
     st.plotly_chart(fig3, use_container_width=True)
 
-    # Critical stockout map
     st.subheader("Critical Stockout Locations")
     critical = filtered_s[
         (filtered_s["stockout_probability"] >= 0.75) &
@@ -317,11 +310,10 @@ elif page == "⚠️ Stockout Signals":
                     max_width=220
                 )
             ).add_to(m2)
-        st_folium(m2, width=1100, height=400)
+        st_folium(m2, width=None, height=400)
     else:
         st.info("No critical stockout locations match current filters.")
 
-    # Table
     st.subheader("Stockout Detail Table")
     display_cols = [
         "outlet_name", "outlet_type", "suburb",
@@ -336,7 +328,6 @@ elif page == "⚠️ Stockout Signals":
         use_container_width=True
     )
 
-# PAGE 4: Coverage Gaps
 elif page == "🗺️ Coverage Gaps":
     st.title("🗺️ Coverage Gap Analysis")
     st.markdown(
@@ -365,7 +356,6 @@ elif page == "🗺️ Coverage Gaps":
     )
     st.plotly_chart(fig4, use_container_width=True)
 
-    # Visit frequency scatter map
     st.subheader("Visit Frequency by Outlet Location")
     map_data = coverage.dropna(subset=["outlet_lat", "outlet_lon"])
 
@@ -398,9 +388,8 @@ elif page == "🗺️ Coverage Gaps":
             )
         ).add_to(m3)
 
-    st_folium(m3, width=1100, height=500)
+    st_folium(m3, width=None, height=500)
 
-    # Bottom outlets table
     st.subheader("Most Underserved Outlets")
     st.markdown(
         "These outlets have the lowest visit frequency — "
