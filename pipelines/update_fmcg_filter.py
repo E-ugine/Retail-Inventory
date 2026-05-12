@@ -6,7 +6,7 @@ load_dotenv()
 DB_URL = os.getenv("DATABASE_URL")
 
 def update_fmcg_table(engine):
-    with engine.connect() as conn:
+    with engine.begin() as conn:  # begin() auto-commits on exit
         conn.execute(text("""
             DROP TABLE IF EXISTS outlets_fmcg;
             CREATE TABLE outlets_fmcg AS
@@ -20,12 +20,12 @@ def update_fmcg_table(engine):
             )
             OR amenity IN ('marketplace', 'market');
         """))
-        
+
+    with engine.connect() as conn:
         result = conn.execute(text("SELECT COUNT(*) FROM outlets_fmcg;"))
         count = result.scalar()
-        conn.commit()
         print(f"FMCG table updated: {count} outlets")
-        
+
         result = conn.execute(text("""
             SELECT shop_type, COUNT(*) as count
             FROM outlets_fmcg

@@ -2,3 +2,6 @@ venv/
 .env
 __pycache__/
 demo/.streamlit/secrets.toml
+airflow/logs/
+airflow/airflow.db
+airflow/__pycache__/

@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import psycopg2
 from sqlalchemy import create_engine, text
 from pathlib import Path
 from dotenv import load_dotenv
@@ -16,37 +17,47 @@ SIMULATION_END = date(2024, 12, 23)
 def get_engine():
     return create_engine(DB_URL)
 
-"""
-# MODULE 1: Sales Velocity
-# Rolling 4-week average units sold per SKU
-# per geographic cluster (suburb)
-"""
+def get_pg_conn():
+    url = DB_URL.replace("postgresql://", "")
+    if "@" in url:
+        user_part, host_part = url.split("@")
+        user = user_part.split(":")[0]
+        password = user_part.split(":")[1] if ":" in user_part else None
+    else:
+        user = None
+        password = None
+        host_part = url
+
+    host_db = host_part.split("/")
+    dbname = host_db[-1]
+    host_port = host_db[0].split(":")
+    host = host_port[0]
+    port = host_port[1] if len(host_port) > 1 else "5432"
+
+    return psycopg2.connect(
+        dbname=dbname,
+        user=user,
+        password=password,
+        host=host,
+        port=port
+    )
+
 def sales_velocity(engine):
     print("\n=== MODULE 1: Sales Velocity ===")
 
-    df = pd.read_sql("""
-        SELECT
-            invoice_date,
-            suburb,
-            category,
-            brand,
-            sku,
-            product_name,
-            quantity,
-            line_total,
-            distributor_id
-        FROM synthetic_invoices
-        WHERE suburb IS NOT NULL
-        ORDER BY invoice_date;
-    """, engine)
+    with get_pg_conn() as pg_conn:
+        df = pd.read_sql("""
+            SELECT invoice_date, suburb, category, brand,
+                   sku, product_name, quantity, line_total, distributor_id
+            FROM synthetic_invoices
+            WHERE suburb IS NOT NULL
+            ORDER BY invoice_date;
+        """, pg_conn)
 
     df["invoice_date"] = pd.to_datetime(df["invoice_date"])
-
-    # 4-week rolling window ending at simulation end
     window_start = pd.Timestamp(SIMULATION_END) - timedelta(weeks=4)
     recent = df[df["invoice_date"] >= window_start]
 
-    # Velocity = total units sold in last 4 weeks per suburb per category
     velocity = (
         recent.groupby(["suburb", "category"])
         .agg(
@@ -71,39 +82,24 @@ def sales_velocity(engine):
 
     return velocity
 
-"""
-# MODULE 2: Stockout Probability
-# For each outlet-SKU, estimate current inventory level
-# based on last delivery date and average depletion rate
-"""
 def stockout_probability(engine):
     print("\n=== MODULE 2: Stockout Probability ===")
 
-    df = pd.read_sql("""
-        SELECT
-            outlet_osm_id,
-            outlet_name,
-            outlet_type,
-            suburb,
-            outlet_lat,
-            outlet_lon,
-            sku,
-            category,
-            product_name,
-            invoice_date,
-            quantity
-        FROM synthetic_invoices
-        ORDER BY outlet_osm_id, sku, invoice_date;
-    """, engine)
+    with get_pg_conn() as pg_conn:
+        df = pd.read_sql("""
+            SELECT outlet_osm_id, outlet_name, outlet_type, suburb,
+                   outlet_lat, outlet_lon, sku, category, product_name,
+                   invoice_date, quantity
+            FROM synthetic_invoices
+            ORDER BY outlet_osm_id, sku, invoice_date;
+        """, pg_conn)
 
     df["invoice_date"] = pd.to_datetime(df["invoice_date"])
     simulation_end = pd.Timestamp(SIMULATION_END)
-
     records = []
 
     for (outlet_id, sku), group in df.groupby(["outlet_osm_id", "sku"]):
         group = group.sort_values("invoice_date")
-
         if len(group) < 2:
             continue
 
@@ -112,7 +108,6 @@ def stockout_probability(engine):
             group["invoice_date"] == last_delivery_date
         ]["quantity"].sum()
 
-        # Average weekly depletion — inferred from order frequency and quantity
         date_diffs = group["invoice_date"].diff().dt.days.dropna()
         avg_days_between_orders = date_diffs.mean()
         avg_order_qty = group["quantity"].mean()
@@ -121,9 +116,7 @@ def stockout_probability(engine):
             continue
 
         daily_depletion = avg_order_qty / avg_days_between_orders
-
         days_since_delivery = (simulation_end - last_delivery_date).days
-
         implied_stock = last_delivery_qty - (daily_depletion * days_since_delivery)
 
         if implied_stock <= 0:
@@ -153,7 +146,6 @@ def stockout_probability(engine):
         })
 
     stockout_df = pd.DataFrame(records)
-
     out_path = OUTPUT_DIR / "stockout_probability.csv"
     stockout_df.to_csv(out_path, index=False)
 
@@ -185,36 +177,26 @@ def stockout_probability(engine):
 
     return stockout_df
 
-"""
-# MODULE 3: Coverage Gap Analysis
-# Suburbs with high outlet density but low
-# distributor transaction frequency
-"""
 def coverage_gap_analysis(engine):
     print("\n=== MODULE 3: Coverage Gap Analysis ===")
 
-    # Visit frequency per outlet — out of 26 possible weeks
-    visit_freq = pd.read_sql("""
-        SELECT
-            outlet_osm_id,
-            outlet_name,
-            outlet_type,
-            suburb,
-            outlet_lat,
-            outlet_lon,
-            COUNT(DISTINCT DATE_TRUNC('week', invoice_date::timestamp)) as weeks_active,
-            SUM(line_total) as total_revenue,
-            COUNT(DISTINCT sku) as skus_purchased
-        FROM synthetic_invoices
-        GROUP BY outlet_osm_id, outlet_name, outlet_type,
-                 suburb, outlet_lat, outlet_lon;
-    """, engine)
+    with get_pg_conn() as pg_conn:
+        visit_freq = pd.read_sql("""
+            SELECT
+                outlet_osm_id, outlet_name, outlet_type, suburb,
+                outlet_lat, outlet_lon,
+                COUNT(DISTINCT DATE_TRUNC('week', invoice_date::timestamp)) as weeks_active,
+                SUM(line_total) as total_revenue,
+                COUNT(DISTINCT sku) as skus_purchased
+            FROM synthetic_invoices
+            GROUP BY outlet_osm_id, outlet_name, outlet_type,
+                     suburb, outlet_lat, outlet_lon;
+        """, pg_conn)
 
     TOTAL_WEEKS = 26
     visit_freq["visit_frequency"] = (
         visit_freq["weeks_active"] / TOTAL_WEEKS
     ).round(3)
-
 
     def classify(freq):
         if freq >= 0.7:
@@ -273,6 +255,41 @@ def coverage_gap_analysis(engine):
 
     return visit_freq
 
+def write_df_to_table(df, table_name, pg_conn):
+    """Write a dataframe to PostgreSQL using raw SQL — avoids pandas/SQLAlchemy version conflicts."""
+    cursor = pg_conn.cursor()
+
+    # Drop and recreate table
+    cursor.execute(f"DROP TABLE IF EXISTS {table_name};")
+
+    # Build CREATE TABLE from dataframe dtypes
+    type_map = {
+        "int64": "BIGINT",
+        "float64": "DOUBLE PRECISION",
+        "object": "TEXT",
+        "bool": "BOOLEAN",
+    }
+
+    cols = []
+    for col, dtype in df.dtypes.items():
+        pg_type = type_map.get(str(dtype), "TEXT")
+        cols.append(f'"{col}" {pg_type}')
+
+    create_sql = f"CREATE TABLE {table_name} ({', '.join(cols)});"
+    cursor.execute(create_sql)
+
+    # Insert rows
+    placeholders = ", ".join(["%s"] * len(df.columns))
+    col_names = ", ".join([f'"{c}"' for c in df.columns])
+    insert_sql = f"INSERT INTO {table_name} ({col_names}) VALUES ({placeholders});"
+
+    rows = [tuple(None if pd.isna(v) else v for v in row) for row in df.itertuples(index=False)]
+    cursor.executemany(insert_sql, rows)
+    pg_conn.commit()
+    cursor.close()
+    print(f"Loaded: {table_name} ({len(df)} rows)")
+
+
 def main():
     engine = get_engine()
 
@@ -281,18 +298,11 @@ def main():
     coverage = coverage_gap_analysis(engine)
 
     print("\nLoading intelligence tables into database...")
-    with engine.connect() as conn:
-        velocity.to_sql("intel_sales_velocity", conn,
-                        if_exists="replace", index=False)
-        stockout_df.to_sql("intel_stockout_probability", conn,
-                           if_exists="replace", index=False)
-        coverage.to_sql("intel_coverage_gaps", conn,
-                        if_exists="replace", index=False)
-        conn.commit()
+    with get_pg_conn() as pg_conn:
+        write_df_to_table(velocity, "intel_sales_velocity", pg_conn)
+        write_df_to_table(stockout_df, "intel_stockout_probability", pg_conn)
+        write_df_to_table(coverage, "intel_coverage_gaps", pg_conn)
 
-    print("Loaded: intel_sales_velocity")
-    print("Loaded: intel_stockout_probability")
-    print("Loaded: intel_coverage_gaps")
     print("\nDemand Atlas intelligence layer complete.")
 
 if __name__ == "__main__":
